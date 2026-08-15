@@ -1,0 +1,196 @@
+State,District,Crop,Crop_Category,Season,Area_Hectares,Production_Tons,Yield_Kg_Per_Ha
+Andhra Pradesh,Guntur,Maize,Cereal,Monsoon,14285.36,52840.12,3698.9
+Andhra Pradesh,Guntur,Maize,Cereal,Winter,9180.55,41833.84,4556.79
+Gujarat,Ahmedabad,Wheat,Cereal,Summer,2761.92,9061.39,3280.83
+Maharashtra,Nagpur,Cotton,Fiber,Monsoon,13059.55,5603.07,429.04
+Maharashtra,Nagpur,Cotton,Fiber,Winter,10767.05,7542.96,700.56
+Karnataka,Dharwad,Rice,Cereal,Winter,14563.69,37008.81,2541.17
+Karnataka,Dharwad,Rice,Cereal,Monsoon,3578.92,14905.81,4164.89
+Andhra Pradesh,Guntur,Cotton,Fiber,Monsoon,3159.37,1550.97,490.91
+Andhra Pradesh,Guntur,Cotton,Fiber,Winter,8108.97,4477.12,552.12
+Uttar Pradesh,Bareilly,Rice,Cereal,Winter,4722.82,15887.05,3363.89
+Uttar Pradesh,Bareilly,Rice,Cereal,Monsoon,2522.66,9393.65,3723.71
+Karnataka,Dharwad,Tur (Arhar),Pulse,Winter,5812.25,5427.01,933.72
+Karnataka,Dharwad,Tur (Arhar),Pulse,Monsoon,11885.05,12655.91,1064.86
+West Bengal,Hooghly,Mustard,Oilseed,Summer,7956.4,8590.6,1079.71
+Gujarat,Ahmedabad,Groundnut,Oilseed,Winter,1173.53,2242.5,1910.9
+Gujarat,Ahmedabad,Groundnut,Oilseed,Monsoon,2972.6,5734.29,1929.05
+Tamil Nadu,Coimbatore,Groundnut,Oilseed,Monsoon,14258.84,18223.65,1278.06
+Tamil Nadu,Coimbatore,Groundnut,Oilseed,Winter,12221.76,28828.2,2358.76
+Gujarat,Rajkot,Groundnut,Oilseed,Winter,1916.25,2999.97,1565.54
+Gujarat,Rajkot,Groundnut,Oilseed,Monsoon,6882.21,13909.5,2021.08
+Punjab,Ludhiana,Rice,Cereal,Monsoon,7680.07,21074.73,2744.08
+Punjab,Ludhiana,Rice,Cereal,Winter,13685.15,35154.14,2568.78
+Karnataka,Belagavi,Tur (Arhar),Pulse,Winter,10106.57,9166.86,907.02
+Karnataka,Belagavi,Tur (Arhar),Pulse,Monsoon,8040.99,7633.87,949.37
+West Bengal,Nadia,Mustard,Oilseed,Summer,3180.39,4427.23,1392.04
+West Bengal,Nadia,Rice,Cereal,Winter,11739.43,52113.33,4439.17
+West Bengal,Nadia,Rice,Cereal,Monsoon,13475.0,59007.03,4379.0
+Uttar Pradesh,Agra,Rice,Cereal,Winter,13867.18,51250.32,3695.8
+Uttar Pradesh,Agra,Rice,Cereal,Monsoon,3341.75,8945.83,2676.99
+Haryana,Hisar,Cotton,Fiber,Winter,5217.29,2204.88,422.61
+Haryana,Hisar,Cotton,Fiber,Monsoon,4434.56,2635.64,594.34
+Punjab,Patiala,Wheat,Cereal,Summer,5672.92,25481.22,4491.73
+Punjab,Sangrur,Wheat,Cereal,Summer,8369.09,29339.35,3505.68
+Uttar Pradesh,Agra,Sugarcane,Commercial,Summer,12131.86,20762.34,1711.39
+Uttar Pradesh,Agra,Sugarcane,Commercial,Winter,14809.86,23870.98,1611.83
+Uttar Pradesh,Agra,Sugarcane,Commercial,Monsoon,3381.38,8988.96,2658.37
+Andhra Pradesh,Guntur,Rice,Cereal,Monsoon,12324.19,30946.53,2511.04
+Andhra Pradesh,Guntur,Rice,Cereal,Winter,11070.6,43327.12,3913.71
+Andhra Pradesh,Kurnool,Cotton,Fiber,Winter,1573.65,1236.32,785.64
+Andhra Pradesh,Kurnool,Cotton,Fiber,Monsoon,2180.1,1262.78,579.23
+Karnataka,Belagavi,Sugarcane,Commercial,Winter,9537.82,26654.96,2794.66
+Karnataka,Belagavi,Sugarcane,Commercial,Summer,1421.6,2838.01,1996.35
+Karnataka,Belagavi,Sugarcane,Commercial,Monsoon,5215.16,10255.46,1966.47
+Haryana,Hisar,Wheat,Cereal,Summer,9744.58,42031.2,4313.29
+Maharashtra,Pune,Sugarcane,Commercial,Winter,7347.12,20798.37,2830.82
+Maharashtra,Pune,Sugarcane,Commercial,Summer,10842.05,18208.03,1679.39
+Maharashtra,Pune,Sugarcane,Commercial,Monsoon,8638.52,22815.89,2641.18
+Madhya Pradesh,Ujjain,Gram,Pulse,Summer,7660.04,20348.51,2656.45
+Tamil Nadu,Erode,Rice,Cereal,Winter,6699.34,23752.31,3545.47
+Tamil Nadu,Erode,Rice,Cereal,Monsoon,2064.43,5266.03,2550.84
+Tamil Nadu,Coimbatore,Sugarcane,Commercial,Summer,9727.95,15050.5,1547.14
+Tamil Nadu,Coimbatore,Sugarcane,Commercial,Winter,7874.28,15524.38,1971.53
+Tamil Nadu,Coimbatore,Sugarcane,Commercial,Monsoon,4114.74,11773.71,2861.35
+Karnataka,Dharwad,Maize,Cereal,Winter,11455.49,43358.11,3784.92
+Karnataka,Dharwad,Maize,Cereal,Monsoon,1616.21,5412.88,3349.12
+Gujarat,Surat,Wheat,Cereal,Summer,2837.71,9993.14,3521.55
+Punjab,Patiala,Cotton,Fiber,Winter,12217.75,10566.52,864.85
+Punjab,Patiala,Cotton,Fiber,Monsoon,13136.18,9414.7,716.7
+Tamil Nadu,Coimbatore,Rice,Cereal,Winter,3205.27,13165.13,4107.34
+Tamil Nadu,Coimbatore,Rice,Cereal,Monsoon,8320.46,35654.17,4285.12
+Gujarat,Surat,Cotton,Fiber,Monsoon,13493.32,10844.85,803.72
+Gujarat,Surat,Cotton,Fiber,Winter,2095.75,1171.52,559.0
+Maharashtra,Nagpur,Tur (Arhar),Pulse,Monsoon,6693.06,5905.62,882.35
+Maharashtra,Nagpur,Tur (Arhar),Pulse,Winter,12980.59,17581.04,1354.41
+Andhra Pradesh,Krishna,Rice,Cereal,Monsoon,7905.84,19874.49,2513.9
+Andhra Pradesh,Krishna,Rice,Cereal,Winter,3720.56,12407.4,3334.82
+Uttar Pradesh,Meerut,Wheat,Cereal,Summer,5395.42,17350.38,3215.76
+Punjab,Sangrur,Cotton,Fiber,Winter,5186.44,4519.72,871.45
+Punjab,Sangrur,Cotton,Fiber,Monsoon,10693.77,7051.47,659.4
+Haryana,Hisar,Mustard,Oilseed,Summer,14590.84,17906.9,1227.27
+Punjab,Ludhiana,Wheat,Cereal,Summer,4150.84,19643.48,4732.41
+Uttar Pradesh,Bareilly,Mustard,Oilseed,Summer,4862.74,6552.64,1347.52
+Tamil Nadu,Erode,Groundnut,Oilseed,Winter,1034.86,1595.56,1541.81
+Tamil Nadu,Erode,Groundnut,Oilseed,Monsoon,7788.85,15044.01,1931.48
+Karnataka,Dharwad,Sugarcane,Commercial,Summer,4540.37,7161.16,1577.22
+Karnataka,Dharwad,Sugarcane,Commercial,Winter,3973.65,11374.18,2862.4
+Karnataka,Dharwad,Sugarcane,Commercial,Monsoon,7597.07,13046.75,1717.34
+Tamil Nadu,Salem,Sugarcane,Commercial,Summer,4009.8,11943.11,2978.48
+Tamil Nadu,Salem,Sugarcane,Commercial,Monsoon,11543.48,28953.36,2508.2
+Tamil Nadu,Salem,Sugarcane,Commercial,Winter,11059.14,20530.85,1856.46
+Madhya Pradesh,Indore,Maize,Cereal,Monsoon,9668.43,35605.73,3682.68
+Madhya Pradesh,Indore,Maize,Cereal,Winter,8268.73,35724.8,4320.47
+Uttar Pradesh,Meerut,Mustard,Oilseed,Summer,12611.89,12375.54,981.26
+Uttar Pradesh,Agra,Wheat,Cereal,Summer,3204.52,11463.85,3577.4
+Karnataka,Belagavi,Rice,Cereal,Winter,9067.95,23409.37,2581.55
+Karnataka,Belagavi,Rice,Cereal,Monsoon,740.52,2854.8,3855.13
+Madhya Pradesh,Indore,Soybean,Oilseed,Winter,3784.19,8583.07,2268.14
+Madhya Pradesh,Indore,Soybean,Oilseed,Monsoon,3028.31,7473.14,2467.76
+Andhra Pradesh,Guntur,Groundnut,Oilseed,Winter,6107.66,12393.24,2029.13
+Andhra Pradesh,Guntur,Groundnut,Oilseed,Monsoon,2494.05,5796.37,2324.08
+Madhya Pradesh,Indore,Wheat,Cereal,Summer,2145.37,7753.2,3613.92
+Karnataka,Davanagere,Rice,Cereal,Winter,13221.42,57505.11,4349.39
+Karnataka,Davanagere,Rice,Cereal,Monsoon,10069.77,30369.22,3015.88
+Andhra Pradesh,Kurnool,Groundnut,Oilseed,Winter,8550.41,18645.62,2180.67
+Andhra Pradesh,Kurnool,Groundnut,Oilseed,Monsoon,4006.86,7354.91,1835.58
+Haryana,Karnal,Rice,Cereal,Winter,13509.63,36289.7,2686.21
+Haryana,Karnal,Rice,Cereal,Monsoon,9679.97,41632.0,4300.84
+Haryana,Sirsa,Wheat,Cereal,Summer,5563.54,20085.77,3610.25
+Haryana,Karnal,Wheat,Cereal,Summer,13508.1,58175.6,4306.72
+Uttar Pradesh,Bareilly,Sugarcane,Commercial,Monsoon,11808.2,33424.65,2830.63
+Uttar Pradesh,Bareilly,Sugarcane,Commercial,Summer,1720.03,4236.52,2463.05
+Uttar Pradesh,Bareilly,Sugarcane,Commercial,Winter,13529.04,23573.54,1742.44
+Maharashtra,Pune,Soybean,Oilseed,Winter,633.36,1526.17,2409.64
+Maharashtra,Pune,Soybean,Oilseed,Monsoon,10120.78,16721.65,1652.21
+Haryana,Sirsa,Cotton,Fiber,Monsoon,2831.72,1139.85,402.53
+Haryana,Sirsa,Cotton,Fiber,Winter,10532.48,7102.79,674.37
+West Bengal,Bardhaman,Rice,Cereal,Monsoon,3751.9,14271.93,3803.92
+West Bengal,Bardhaman,Rice,Cereal,Winter,3940.11,15462.41,3924.36
+Gujarat,Surat,Groundnut,Oilseed,Winter,11324.13,18010.8,1590.48
+Gujarat,Surat,Groundnut,Oilseed,Monsoon,12813.74,25365.57,1979.56
+Maharashtra,Pune,Tur (Arhar),Pulse,Winter,8740.47,10716.6,1226.09
+Maharashtra,Pune,Tur (Arhar),Pulse,Monsoon,5831.88,4519.36,774.94
+Karnataka,Davanagere,Maize,Cereal,Winter,4037.85,13876.03,3436.49
+Karnataka,Davanagere,Maize,Cereal,Monsoon,6199.92,31838.02,5135.23
+Maharashtra,Nagpur,Soybean,Oilseed,Monsoon,9651.51,27391.66,2838.07
+Maharashtra,Nagpur,Soybean,Oilseed,Winter,7788.24,20967.66,2692.22
+Gujarat,Rajkot,Cotton,Fiber,Monsoon,7641.51,5260.8,688.45
+Gujarat,Rajkot,Cotton,Fiber,Winter,10975.56,5461.66,497.62
+Tamil Nadu,Salem,Rice,Cereal,Monsoon,852.58,2610.21,3061.54
+Tamil Nadu,Salem,Rice,Cereal,Winter,3068.1,11630.98,3790.94
+West Bengal,Hooghly,Rice,Cereal,Monsoon,14331.96,62787.17,4380.92
+West Bengal,Hooghly,Rice,Cereal,Winter,5867.3,25403.82,4329.73
+Haryana,Sirsa,Rice,Cereal,Winter,13960.62,35333.07,2530.91
+Haryana,Sirsa,Rice,Cereal,Monsoon,14516.49,48722.71,3356.37
+Andhra Pradesh,Krishna,Cotton,Fiber,Monsoon,12868.64,11347.7,881.81
+Andhra Pradesh,Krishna,Cotton,Fiber,Winter,6083.92,3329.24,547.22
+Madhya Pradesh,Ujjain,Soybean,Oilseed,Monsoon,5095.37,14148.36,2776.71
+Madhya Pradesh,Ujjain,Soybean,Oilseed,Winter,8573.62,15040.19,1754.24
+Maharashtra,Nashik,Tur (Arhar),Pulse,Winter,10592.43,15347.58,1448.92
+Maharashtra,Nashik,Tur (Arhar),Pulse,Monsoon,1909.06,2206.97,1156.05
+Haryana,Sirsa,Mustard,Oilseed,Summer,14855.78,21593.02,1453.51
+Andhra Pradesh,Kurnool,Maize,Cereal,Winter,8015.78,25139.09,3136.2
+Andhra Pradesh,Kurnool,Maize,Cereal,Monsoon,11241.14,55145.66,4905.7
+Punjab,Ludhiana,Cotton,Fiber,Winter,10686.02,7998.59,748.51
+Punjab,Ludhiana,Cotton,Fiber,Monsoon,4757.08,2757.92,579.75
+West Bengal,Bardhaman,Mustard,Oilseed,Summer,12246.64,19942.8,1628.43
+Andhra Pradesh,Krishna,Groundnut,Oilseed,Monsoon,13741.99,30788.79,2240.49
+Andhra Pradesh,Krishna,Groundnut,Oilseed,Winter,7771.99,14095.36,1813.61
+Punjab,Sangrur,Rice,Cereal,Monsoon,9924.48,40656.53,4096.59
+Punjab,Sangrur,Rice,Cereal,Winter,12038.99,46999.37,3903.93
+Madhya Pradesh,Indore,Gram,Pulse,Summer,5400.93,15311.69,2835.01
+Tamil Nadu,Erode,Sugarcane,Commercial,Winter,1862.74,3843.52,2063.37
+Tamil Nadu,Erode,Sugarcane,Commercial,Monsoon,1021.16,2417.51,2367.42
+Tamil Nadu,Erode,Sugarcane,Commercial,Summer,8368.35,18396.98,2198.4
+Maharashtra,Pune,Cotton,Fiber,Monsoon,9067.08,4925.87,543.27
+Maharashtra,Pune,Cotton,Fiber,Winter,1041.55,432.5,415.25
+Madhya Pradesh,Sehore,Soybean,Oilseed,Winter,5722.76,15645.45,2733.9
+Madhya Pradesh,Sehore,Soybean,Oilseed,Monsoon,8072.53,13647.34,1690.59
+Gujarat,Rajkot,Wheat,Cereal,Summer,3629.4,15918.51,4385.99
+Haryana,Hisar,Rice,Cereal,Winter,1737.54,6508.44,3745.78
+Haryana,Hisar,Rice,Cereal,Monsoon,8204.64,21359.63,2603.36
+Punjab,Patiala,Rice,Cereal,Winter,9742.73,34891.35,3581.27
+Punjab,Patiala,Rice,Cereal,Monsoon,14649.86,57898.88,3952.18
+Madhya Pradesh,Ujjain,Maize,Cereal,Winter,5182.87,20934.23,4039.12
+Madhya Pradesh,Ujjain,Maize,Cereal,Monsoon,4427.07,20844.64,4708.45
+Haryana,Karnal,Cotton,Fiber,Winter,1637.62,1014.49,619.49
+Haryana,Karnal,Cotton,Fiber,Monsoon,14458.4,5966.69,412.68
+Andhra Pradesh,Kurnool,Rice,Cereal,Monsoon,10591.63,44187.86,4171.96
+Andhra Pradesh,Kurnool,Rice,Cereal,Winter,3012.77,9996.1,3317.91
+Andhra Pradesh,Krishna,Maize,Cereal,Winter,4128.52,13109.91,3175.45
+Andhra Pradesh,Krishna,Maize,Cereal,Monsoon,10861.64,44729.75,4118.14
+Gujarat,Ahmedabad,Cotton,Fiber,Winter,4559.04,3328.56,730.1
+Gujarat,Ahmedabad,Cotton,Fiber,Monsoon,11199.51,9826.79,877.43
+Uttar Pradesh,Bareilly,Wheat,Cereal,Summer,9369.95,37459.56,3997.84
+Uttar Pradesh,Meerut,Rice,Cereal,Winter,4092.1,13664.34,3339.2
+Uttar Pradesh,Meerut,Rice,Cereal,Monsoon,11488.77,36901.35,3211.95
+Karnataka,Davanagere,Sugarcane,Commercial,Monsoon,2183.05,3321.71,1521.59
+Karnataka,Davanagere,Sugarcane,Commercial,Summer,1090.57,1711.1,1569.0
+Karnataka,Davanagere,Sugarcane,Commercial,Winter,10703.04,29788.59,2783.19
+Maharashtra,Nashik,Cotton,Fiber,Winter,1918.6,1222.32,637.09
+Maharashtra,Nashik,Cotton,Fiber,Monsoon,7365.34,4756.61,645.81
+Tamil Nadu,Salem,Groundnut,Oilseed,Monsoon,6790.85,9560.43,1407.84
+Tamil Nadu,Salem,Groundnut,Oilseed,Winter,9429.83,15825.24,1678.21
+Karnataka,Davanagere,Tur (Arhar),Pulse,Monsoon,1156.91,1397.63,1208.07
+Karnataka,Davanagere,Tur (Arhar),Pulse,Winter,9574.97,9572.0,999.69
+Maharashtra,Nashik,Sugarcane,Commercial,Monsoon,12919.1,29128.69,2254.7
+Maharashtra,Nashik,Sugarcane,Commercial,Summer,2862.55,7122.14,2488.04
+Maharashtra,Nashik,Sugarcane,Commercial,Winter,9815.08,15761.55,1605.85
+Karnataka,Belagavi,Maize,Cereal,Monsoon,8993.75,25754.77,2863.63
+Karnataka,Belagavi,Maize,Cereal,Winter,8844.38,44722.05,5056.55
+Uttar Pradesh,Meerut,Sugarcane,Commercial,Winter,9827.68,20463.69,2082.25
+Uttar Pradesh,Meerut,Sugarcane,Commercial,Monsoon,8411.44,18399.02,2187.38
+Uttar Pradesh,Meerut,Sugarcane,Commercial,Summer,6098.49,17760.02,2912.2
+Maharashtra,Nashik,Soybean,Oilseed,Winter,13627.58,40089.48,2941.79
+Maharashtra,Nashik,Soybean,Oilseed,Monsoon,1505.74,2700.83,1793.69
+Madhya Pradesh,Sehore,Gram,Pulse,Summer,764.22,1261.86,1651.17
+Uttar Pradesh,Agra,Mustard,Oilseed,Summer,10403.6,10247.55,985.0
+Madhya Pradesh,Sehore,Maize,Cereal,Winter,5125.15,15226.05,2970.85
+Madhya Pradesh,Sehore,Maize,Cereal,Monsoon,837.44,4042.91,4827.7
+Madhya Pradesh,Ujjain,Wheat,Cereal,Summer,4586.89,20485.23,4466.04
+Madhya Pradesh,Sehore,Wheat,Cereal,Summer,10602.69,34063.26,3212.7
+Haryana,Karnal,Mustard,Oilseed,Summer,13223.34,19386.08,1466.05
+Maharashtra,Nagpur,Sugarcane,Commercial,Winter,12150.47,31622.93,2602.61
+Maharashtra,Nagpur,Sugarcane,Commercial,Monsoon,3072.87,5909.28,1923.05
+Maharashtra,Nagpur,Sugarcane,Commercial,Summer,12199.1,32033.86,2625.92
