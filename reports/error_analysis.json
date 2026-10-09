@@ -1,0 +1,207 @@
+{
+  "most_confused_pest_classes": [
+    {
+      "True_Class": "Stem Borer",
+      "Predicted_Class": "Brown Planthopper",
+      "Misclassified_Count": 3285,
+      "Percent_of_True_Class": 64.63
+    },
+    {
+      "True_Class": "Leaf Folder",
+      "Predicted_Class": "Brown Planthopper",
+      "Misclassified_Count": 1882,
+      "Percent_of_True_Class": 87.21
+    },
+    {
+      "True_Class": "Aphid",
+      "Predicted_Class": "Termite",
+      "Misclassified_Count": 1747,
+      "Percent_of_True_Class": 28.29
+    },
+    {
+      "True_Class": "Pink Bollworm",
+      "Predicted_Class": "Whitefly",
+      "Misclassified_Count": 1448,
+      "Percent_of_True_Class": 49.93
+    },
+    {
+      "True_Class": "Painted Bug",
+      "Predicted_Class": "Mustard Aphid",
+      "Misclassified_Count": 1414,
+      "Percent_of_True_Class": 95.28
+    },
+    {
+      "True_Class": "Whitefly",
+      "Predicted_Class": "Pink Bollworm",
+      "Misclassified_Count": 1411,
+      "Percent_of_True_Class": 48.77
+    },
+    {
+      "True_Class": "Pyrilla",
+      "Predicted_Class": "Early Shoot Borer",
+      "Misclassified_Count": 1269,
+      "Percent_of_True_Class": 68.48
+    },
+    {
+      "True_Class": "Armyworm",
+      "Predicted_Class": "Termite",
+      "Misclassified_Count": 1268,
+      "Percent_of_True_Class": 71.24
+    },
+    {
+      "True_Class": "Leaf Miner",
+      "Predicted_Class": "Aphid",
+      "Misclassified_Count": 1221,
+      "Percent_of_True_Class": 72.77
+    },
+    {
+      "True_Class": "Diamondback Moth",
+      "Predicted_Class": "Mustard Aphid",
+      "Misclassified_Count": 1189,
+      "Percent_of_True_Class": 95.35
+    }
+  ],
+  "crop_confusion_ranking": [
+    {
+      "Crop_Name": "Soybean",
+      "Total_Samples": 2442,
+      "Pest_Accuracy": 32.1,
+      "Risk_Accuracy": 83.74,
+      "Pest_Error_Rate": 67.9
+    },
+    {
+      "Crop_Name": "Sugarcane",
+      "Total_Samples": 5302,
+      "Pest_Accuracy": 37.4,
+      "Risk_Accuracy": 85.06,
+      "Pest_Error_Rate": 62.6
+    },
+    {
+      "Crop_Name": "Wheat",
+      "Total_Samples": 7055,
+      "Pest_Accuracy": 38.23,
+      "Risk_Accuracy": 79.63,
+      "Pest_Error_Rate": 61.77
+    },
+    {
+      "Crop_Name": "Groundnut",
+      "Total_Samples": 4822,
+      "Pest_Accuracy": 38.86,
+      "Risk_Accuracy": 84.22,
+      "Pest_Error_Rate": 61.14
+    },
+    {
+      "Crop_Name": "Cotton",
+      "Total_Samples": 7215,
+      "Pest_Accuracy": 40.57,
+      "Risk_Accuracy": 83.08,
+      "Pest_Error_Rate": 59.43
+    },
+    {
+      "Crop_Name": "Maize",
+      "Total_Samples": 3711,
+      "Pest_Accuracy": 42.95,
+      "Risk_Accuracy": 84.42,
+      "Pest_Error_Rate": 57.05
+    },
+    {
+      "Crop_Name": "Tur (Arhar)",
+      "Total_Samples": 2466,
+      "Pest_Accuracy": 43.07,
+      "Risk_Accuracy": 83.09,
+      "Pest_Error_Rate": 56.93
+    },
+    {
+      "Crop_Name": "Gram",
+      "Total_Samples": 1180,
+      "Pest_Accuracy": 43.47,
+      "Risk_Accuracy": 79.83,
+      "Pest_Error_Rate": 56.53
+    },
+    {
+      "Crop_Name": "Rice",
+      "Total_Samples": 10800,
+      "Pest_Accuracy": 43.96,
+      "Risk_Accuracy": 82.68,
+      "Pest_Error_Rate": 56.04
+    },
+    {
+      "Crop_Name": "Mustard",
+      "Total_Samples": 4947,
+      "Pest_Accuracy": 44.35,
+      "Risk_Accuracy": 78.41,
+      "Pest_Error_Rate": 55.65
+    }
+  ],
+  "weather_impact_on_accuracy": {
+    "Temperature_Quartiles_Accuracy": {
+      "Q1_Cool": 41.5,
+      "Q2_Moderate": 40.87,
+      "Q3_Warm": 40.91,
+      "Q4_Hot": 39.91
+    },
+    "Humidity_Quartiles_Accuracy": {
+      "Q1_Low": 40.68,
+      "Q2_Moderate": 41.13,
+      "Q3_High": 40.75,
+      "Q4_VeryHigh": 40.65
+    },
+    "Rainfall_Quartiles_Accuracy": {
+      "Q1_Dry": 40.52,
+      "Q2_Light": 41.7,
+      "Q3_Moderate": 40.17,
+      "Q4_Heavy": 40.8
+    }
+  },
+  "lowest_recall_classes": [
+    {
+      "Class": "Leaf Folder",
+      "Recall": 0.14,
+      "Support": 2158
+    },
+    {
+      "Class": "Diamondback Moth",
+      "Recall": 0.56,
+      "Support": 1247
+    },
+    {
+      "Class": "Shoot Fly",
+      "Recall": 0.92,
+      "Support": 759
+    },
+    {
+      "Class": "Armyworm",
+      "Recall": 1.35,
+      "Support": 1780
+    },
+    {
+      "Class": "Plume Moth",
+      "Recall": 2.78,
+      "Support": 612
+    },
+    {
+      "Class": "Top Borer",
+      "Recall": 3.41,
+      "Support": 1321
+    },
+    {
+      "Class": "Painted Bug",
+      "Recall": 3.91,
+      "Support": 1484
+    },
+    {
+      "Class": "Cutworm",
+      "Recall": 4.79,
+      "Support": 355
+    }
+  ],
+  "risk_imbalance_impact": {
+    "High_support": 31860,
+    "High_recall": 85.06,
+    "Medium_support": 16993,
+    "Medium_recall": 78.4,
+    "Low_support": 1087,
+    "Low_recall": 67.89,
+    "assessment": "Cost-sensitive balanced class weighting enabled the minority 'Low' risk class (2.18% prevalence) to achieve 67.89% recall without severe precision degradation."
+  }
+}

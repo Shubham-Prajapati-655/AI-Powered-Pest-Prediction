@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "verdict": "Production-Ready",
+  "cold_start_ms": 9133.78,
+  "warm_start_ms": 135.59,
+  "single_inference_latency_ms": {
+    "mean": 135.59,
+    "p50": 131.53,
+    "p95": 183.46,
+    "p99": 286.15
+  },
+  "api_latency_ms": {
+    "mean": 104.78,
+    "p95": 130.91
+  },
+  "batch_benchmarks": {
+    "batch_100": {
+      "total_duration_ms": 12544.58,
+      "avg_latency_ms": 125.446,
+      "throughput_rps": 8.0
+    },
+    "batch_500": {
+      "total_duration_ms": 51768.79,
+      "avg_latency_ms": 103.538,
+      "throughput_rps": 9.7
+    },
+    "batch_1000": {
+      "total_duration_ms": 86677.71,
+      "avg_latency_ms": 86.678,
+      "throughput_rps": 11.5
+    }
+  },
+  "resources": {
+    "ram_rss_mb": 259.88,
+    "cpu_percent": 0.0,
+    "disk_used_gb": 159.2,
+    "disk_free_gb": 78.66
+  }
+}

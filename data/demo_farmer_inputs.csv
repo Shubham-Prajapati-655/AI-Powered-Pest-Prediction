@@ -1,0 +1,11 @@
+Crop_Type,Growth_Stage,Soil_Type,Region,Temperature_C,Humidity_Pct,Rainfall_mm,Wind_Speed_kmh,Sunlight_Hours,Soil_pH,Soil_N,Soil_P,Soil_K,Irrigation_Type,Fertilizer_Usage,Prev_Infestation
+Wheat,Vegetative,Loamy,North,24.5,68.0,12.0,8.5,8.2,6.5,140.0,45.0,190.0,Drip,Medium,No
+Rice,Flowering,Clay,South,31.2,85.0,145.0,14.2,6.0,6.2,120.0,35.0,150.0,Flood,High,Yes
+Maize,Maturity,Sandy,Central,28.4,55.0,25.0,11.0,9.5,7.1,160.0,50.0,210.0,Sprinkler,Medium,No
+Cotton,Vegetative,Black,West,33.0,72.0,60.0,9.0,7.8,7.5,110.0,40.0,180.0,Drip,High,Yes
+Soybean,Seedling,Loamy,Central,26.0,64.0,35.0,7.0,8.0,6.8,135.0,42.0,175.0,Rainfed,Low,No
+Tomato,Flowering,Loamy,South,27.5,70.0,15.0,6.5,8.5,6.4,150.0,48.0,200.0,Drip,Medium,No
+Potato,Vegetative,Sandy,North,19.5,75.0,10.0,5.0,7.2,5.8,130.0,55.0,220.0,Sprinkler,High,Yes
+Sugarcane,Maturity,Clay,East,30.5,82.0,120.0,12.5,7.0,6.9,180.0,60.0,240.0,Flood,High,No
+Mustard,Flowering,Loamy,North,18.0,62.0,5.0,6.0,8.0,7.2,100.0,38.0,160.0,Rainfed,Low,No
+Chickpea,Pod Formation,Sandy,Central,22.0,50.0,8.0,8.0,9.0,7.4,90.0,32.0,140.0,Rainfed,Low,No

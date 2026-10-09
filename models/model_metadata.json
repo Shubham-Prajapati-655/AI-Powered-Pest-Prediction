@@ -1,0 +1,130 @@
+{
+  "pipeline_version": "2.0.0",
+  "evaluation_date": "2026-09-27 11:55:15",
+  "dataset_total_samples": 249700,
+  "train_samples": 199760,
+  "test_samples": 49940,
+  "pest_model": {
+    "algorithm": "ExtraTreesClassifier",
+    "accuracy": 0.408,
+    "top3_accuracy": 1.0,
+    "top5_accuracy": 1.0,
+    "balanced_accuracy": 0.3597,
+    "macro_precision": 0.3457,
+    "macro_recall": 0.3597,
+    "macro_f1": 0.2942,
+    "weighted_precision": 0.363,
+    "weighted_recall": 0.408,
+    "weighted_f1": 0.3385,
+    "cohens_kappa": 0.3674,
+    "mcc": 0.3725,
+    "cv_5fold": {
+      "mean_accuracy": 0.3945,
+      "std_accuracy": 0.0031,
+      "mean_macro_f1": 0.3165,
+      "mean_precision": 0.3395,
+      "mean_recall": 0.3502
+    }
+  },
+  "risk_model": {
+    "algorithm": "RandomForestClassifier (Balanced)",
+    "accuracy": 0.8242,
+    "balanced_accuracy": 0.7712,
+    "macro_precision": 0.684,
+    "macro_recall": 0.7712,
+    "macro_f1": 0.7165,
+    "weighted_precision": 0.8363,
+    "weighted_recall": 0.8242,
+    "weighted_f1": 0.8285,
+    "roc_auc_ovr": 0.9382,
+    "cohens_kappa": 0.6439,
+    "mcc": 0.646,
+    "cv_5fold": {
+      "mean_accuracy": 0.8321,
+      "std_accuracy": 0.0036,
+      "mean_macro_f1": 0.7203,
+      "mean_precision": 0.7087,
+      "mean_recall": 0.7345
+    }
+  },
+  "inference_benchmarks": {
+    "model_loading_time_seconds": 53.4745,
+    "single_query_latency_ms": {
+      "mean": 235.388,
+      "median": 198.556,
+      "p95": 443.895,
+      "p99": 739.974
+    },
+    "batch_benchmarks": {
+      "Batch_10": {
+        "total_latency_ms": 232.64,
+        "per_item_ms": 23.264,
+        "throughput_queries_per_sec": 43.0
+      },
+      "Batch_100": {
+        "total_latency_ms": 289.32,
+        "per_item_ms": 2.893,
+        "throughput_queries_per_sec": 345.6
+      },
+      "Batch_1000": {
+        "total_latency_ms": 976.36,
+        "per_item_ms": 0.976,
+        "throughput_queries_per_sec": 1024.2
+      }
+    },
+    "process_memory_mb": 1763.36,
+    "serialized_model_size_mb": 2502.19
+  },
+  "robustness_testing": {
+    "total_tests": 6,
+    "passed": true,
+    "details": [
+      {
+        "Test": "Missing Numerical Values (NaN in Temp, Rainfall, N)",
+        "Expected": "Imputed via median and predicted gracefully",
+        "Passed": true,
+        "Predicted_Pest": "Termite",
+        "Predicted_Risk": "High"
+      },
+      {
+        "Test": "Missing Categorical Values (NaN in District, Crop_Name)",
+        "Expected": "Imputed via most_frequent and predicted gracefully",
+        "Passed": true,
+        "Predicted_Pest": "Stem Borer",
+        "Predicted_Risk": "Medium"
+      },
+      {
+        "Test": "Unknown District ('UnseenDistrict_X99')",
+        "Expected": "Encoded as -1 via OrdinalEncoder and predicted cleanly",
+        "Passed": true,
+        "Predicted_Pest": "Termite",
+        "Predicted_Risk": "Medium"
+      },
+      {
+        "Test": "Unknown Crop ('ExoticDragonFruit_Alpha')",
+        "Expected": "Encoded as -1 and predicted cleanly without error",
+        "Passed": true,
+        "Predicted_Pest": "Gram Pod Borer",
+        "Predicted_Risk": "Medium"
+      },
+      {
+        "Test": "Unknown Soil Type ('Volcanic_Pumice_Soil')",
+        "Expected": "Handled gracefully via unknown_value=-1",
+        "Passed": true,
+        "Predicted_Pest": "Aphid",
+        "Predicted_Risk": "Medium"
+      },
+      {
+        "Test": "Out-of-range Weather/Soil (Temp=62.5C, Rain=1200mm, pH=12.8)",
+        "Expected": "StandardScaler normalizes and tree evaluates thresholds safely",
+        "Passed": true,
+        "Predicted_Pest": "Aphid",
+        "Predicted_Risk": "Medium"
+      }
+    ]
+  },
+  "consistency_testing": {
+    "deterministic": true,
+    "repetitions": 50
+  }
+}

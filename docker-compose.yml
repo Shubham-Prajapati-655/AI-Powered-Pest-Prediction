@@ -1,0 +1,73 @@
+# ==============================================================================
+# AgriAI Platform - Docker Compose Multi-Container Configuration
+# Supports local containerized development or production PostgreSQL deployment
+# ==============================================================================
+
+version: '3.8'
+
+services:
+  # Main Web Application Service
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agriai-web-app
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    environment:
+      - APP_NAME=AgriAI - Crop Pest Prediction Platform
+      - APP_ENV=production
+      - DEBUG=False
+      - SECRET_KEY=${SECRET_KEY:-default_secret_key_change_in_production}
+      - DATABASE_URL=${DATABASE_URL:-sqlite:///database/predictions.db}
+      - ADMIN_EMAIL=${ADMIN_EMAIL:-admin@agriai.org}
+      - ADMIN_DEFAULT_PASSWORD=${ADMIN_DEFAULT_PASSWORD:-Admin@12345}
+      - SESSION_TIMEOUT_MINUTES=1440
+      - WEATHER_API_TIMEOUT=5
+      - WEATHER_API_RETRIES=3
+      - LOG_LEVEL=INFO
+    volumes:
+      - app_database:/app/database
+      - app_logs:/app/logs
+      - app_backups:/app/backups
+      - app_uploads:/app/uploads
+    depends_on:
+      - db
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 25s
+
+  # Optional Production Database Service (PostgreSQL 16)
+  db:
+    image: postgres:16-alpine
+    container_name: agriai-postgres-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-agriai_db}
+      POSTGRES_USER: ${POSTGRES_USER:-agri_admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-agri_secure_pass_2026}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U agri_admin -d agriai_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  app_database:
+    driver: local
+  app_logs:
+    driver: local
+  app_backups:
+    driver: local
+  app_uploads:
+    driver: local
+  postgres_data:
+    driver: local

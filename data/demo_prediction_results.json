@@ -1,0 +1,38 @@
+[
+  {
+    "sample_id": "DEMO-001",
+    "crop": "Wheat",
+    "predicted_pest": "Aphids",
+    "risk_level": "Moderate",
+    "top_3": [
+      {"pest": "Aphids", "probability": 0.814},
+      {"pest": "Armyworm", "probability": 0.112},
+      {"pest": "Stem Borer", "probability": 0.048}
+    ],
+    "recommended_action": "Spray Neem oil 3ml/L or introduce Coccinellid predators. Monitor threshold daily."
+  },
+  {
+    "sample_id": "DEMO-002",
+    "crop": "Rice",
+    "predicted_pest": "Brown Planthopper",
+    "risk_level": "Severe",
+    "top_3": [
+      {"pest": "Brown Planthopper", "probability": 0.923},
+      {"pest": "Stem Borer", "probability": 0.051},
+      {"pest": "Leafhopper", "probability": 0.018}
+    ],
+    "recommended_action": "Drain standing field water immediately. Apply Pymetrozine 50% WG at 120g/acre."
+  },
+  {
+    "sample_id": "DEMO-003",
+    "crop": "Cotton",
+    "predicted_pest": "Bollworm",
+    "risk_level": "High",
+    "top_3": [
+      {"pest": "Bollworm", "probability": 0.776},
+      {"pest": "Whitefly", "probability": 0.143},
+      {"pest": "Thrips", "probability": 0.054}
+    ],
+    "recommended_action": "Install pheromone traps (5/acre). Apply Bacillus thuringiensis (Bt) or Chlorantraniliprole 18.5% SC."
+  }
+]

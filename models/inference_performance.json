@@ -1,0 +1,10 @@
+{
+  "average_total_latency_ms": 162.73,
+  "median_total_latency_ms": 120.34,
+  "p95_total_latency_ms": 431.44,
+  "average_preprocessing_time_ms": 50.18,
+  "average_prediction_time_ms": 94.76,
+  "average_advisory_lookup_time_ms": 0.2,
+  "process_memory_mb": 337.04,
+  "serialized_model_size_mb": 76.23
+}

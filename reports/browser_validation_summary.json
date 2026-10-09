@@ -1,0 +1,10 @@
+{
+  "results": {
+    "landing_page": "PASSED",
+    "farmer_login": "PASSED",
+    "dashboard_exceptions": "PASSED",
+    "mobile_responsive": "PASSED"
+  },
+  "console_errors_count": 0,
+  "status": "ALL_PASSED"
+}

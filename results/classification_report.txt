@@ -1,0 +1,67 @@
+========================================================================
+AI-POWERED CROP PEST PREDICTION & ADVISORY PLATFORM
+ACADEMIC MODEL CLASSIFICATION & EVALUATION REPORT
+========================================================================
+
+Total Dataset Instances : 249,700
+Training Set Instances  : 199,760 (80%)
+Testing Set Instances   : 49,940 (20%)
+Model Architecture      : MultiOutputClassifier
+
+--- 1. PEST PREDICTION METRICS (25 CLASSES) ---
+Training Accuracy : 61.89%
+Testing Accuracy  : 41.14%
+Overall Accuracy  : 57.74%
+Precision (Wgt)   : 35.59%
+Recall (Wgt)      : 41.14%
+F1-Score (Wgt)    : 32.61%
+
+Pest Classification Report:
+                   precision    recall  f1-score   support
+
+            Aphid       0.39      0.34      0.36      6176
+         Armyworm       0.30      0.01      0.02      1780
+Brown Planthopper       0.45      0.94      0.61      4878
+          Cutworm       0.30      0.06      0.10       354
+ Diamondback Moth       0.15      0.01      0.01      1247
+Early Shoot Borer       0.40      0.74      0.52      2128
+    Fall Armyworm       0.44      0.88      0.59      1633
+    Girdle Beetle       0.34      0.42      0.38       843
+   Gram Pod Borer       0.45      0.94      0.61       529
+      Leaf Folder       0.12      0.00      0.00      2158
+       Leaf Miner       0.34      0.17      0.23      1678
+    Mustard Aphid       0.45      0.97      0.61      2216
+      Painted Bug       0.22      0.01      0.03      1485
+    Pink Bollworm       0.40      0.54      0.46      2899
+       Plume Moth       0.29      0.02      0.03       611
+        Pod Borer       0.45      0.94      0.61      1107
+          Pod Fly       0.31      0.05      0.08       748
+          Pyrilla       0.35      0.24      0.28      1853
+        Shoot Fly       0.15      0.00      0.01       760
+       Spodoptera       0.30      0.06      0.10      1916
+       Stem Borer       0.34      0.07      0.12      5083
+         Stem Fly       0.34      0.43      0.38       838
+          Termite       0.40      0.79      0.53      2807
+        Top Borer       0.29      0.02      0.04      1321
+         Whitefly       0.40      0.46      0.43      2892
+
+         accuracy                           0.41     49940
+        macro avg       0.33      0.36      0.29     49940
+     weighted avg       0.36      0.41      0.33     49940
+
+
+--- 2. OUTBREAK RISK LEVEL METRICS (3 CLASSES) ---
+Training Accuracy : 91.57%
+Testing Accuracy  : 84.26%
+Overall Accuracy  : 90.11%
+
+Outbreak Risk Classification Report:
+              precision    recall  f1-score   support
+
+        High       0.88      0.91      0.89     31825
+         Low       0.67      0.34      0.45      1100
+      Medium       0.78      0.76      0.77     17015
+
+    accuracy                           0.84     49940
+   macro avg       0.77      0.67      0.70     49940
+weighted avg       0.84      0.84      0.84     49940

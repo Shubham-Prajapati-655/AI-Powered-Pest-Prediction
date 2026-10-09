@@ -1,0 +1,941 @@
+{
+  "Cotton": {
+    "Aphid": {
+      "High": {
+        "pesticide": "Imidacloprid 17.8% SL or Thiamethoxam 25% WG",
+        "dosage": "0.3 ml/L Imidacloprid or 0.2 g/L Thiamethoxam foliar spray",
+        "organic_control": "Spray Neem Oil 1500 ppm @ 5 ml/L mixed with 1 ml/L liquid soap solution or release Chrysoperla carnea predators.",
+        "safety_notes": "Wear protective gloves, mask, and goggles. Avoid spraying during honeybee foraging hours (early morning/late afternoon).",
+        "prevention": [
+          "Set up yellow sticky traps @ 10-12 per acre to catch winged aphids.",
+          "Conserve ladybird beetles and green lacewing larvae.",
+          "Avoid excessive nitrogenous fertilizer application."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Neem Oil 1500 ppm or Acetamiprid 20% SP",
+        "dosage": "5 ml/L Neem Oil or 0.2 g/L Acetamiprid",
+        "organic_control": "Spray Fish Oil Rosin Soap @ 25 g/L water or Neem Seed Kernel Extract (NSKE 5%).",
+        "safety_notes": "Do not spray against the wind. Keep domestic animals away from treated field for 24 hours.",
+        "prevention": [
+          "Remove alternate weed hosts near cotton field margins.",
+          "Regular field monitoring twice weekly."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Seed Kernel Extract (NSKE 5%)",
+        "dosage": "50 g/L NSKE preventive spray",
+        "organic_control": "Apply cold-pressed Neem Oil @ 3 ml/L with botanical soap.",
+        "safety_notes": "Store botanical preparations in cool, dark place out of reach of children.",
+        "prevention": [
+          "Maintain clean field borders.",
+          "Promote natural predator populations."
+        ]
+      }
+    },
+    "Pink Bollworm": {
+      "High": {
+        "pesticide": "Chlorantraniliprole 18.5% SC or Emamectin Benzoate 5% SG",
+        "dosage": "0.3 ml/L Chlorantraniliprole or 0.4 g/L Emamectin Benzoate",
+        "organic_control": "Spray Bacillus thuringiensis (Bt) formulation @ 2 g/L or release Trichogrammatoidea baccatrae @ 60,000/acre.",
+        "safety_notes": "Follow strict 14-day pre-harvest interval (PHI). Dispose of empty chemical containers by deep burial.",
+        "prevention": [
+          "Install pink bollworm pheromone traps @ 8-10 per acre.",
+          "Destroy rosetted flowers and infested bolls.",
+          "Enforce crop termination by December-January to break pest cycle."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Spinetoram 11.7% SC or Profenofos 50% EC",
+        "dosage": "0.5 ml/L Spinetoram or 2 ml/L Profenofos",
+        "organic_control": "Apply Neem Oil 10,000 ppm @ 2 ml/L with spreader sticker.",
+        "safety_notes": "Highly toxic to aquatic life. Do not allow spray drift into nearby water bodies.",
+        "prevention": [
+          "Release Trichogrammatoidea baccatrae egg parasitoids @ 60,000/acre.",
+          "Use light traps to monitor adult moth activity."
+        ]
+      },
+      "Low": {
+        "pesticide": "Azadirachtin 10,000 ppm",
+        "dosage": "2 ml/L preventive spray",
+        "organic_control": "Release egg parasitoid wasps @ 40,000/acre.",
+        "safety_notes": "Ensure personal protective equipment (PPE) is worn during preparation.",
+        "prevention": [
+          "Scout 20 random cotton bolls per acre weekly for larval entry holes."
+        ]
+      }
+    },
+    "Whitefly": {
+      "High": {
+        "pesticide": "Pyriproxyfen 10% EC or Diafenthiuron 50% WP",
+        "dosage": "1.5 ml/L Pyriproxyfen or 1.2 g/L Diafenthiuron",
+        "organic_control": "Foliar spray of Beauveria bassiana entomopathogenic fungus @ 5 g/L (minimum 1x10^8 spores/g).",
+        "safety_notes": "Avoid synthetic pyrethroids which trigger whitefly resurgence. Spray early morning when adults are sluggish.",
+        "prevention": [
+          "Install yellow sticky traps @ 15-20 per acre.",
+          "Avoid synthetic pyrethroids which induce whitefly resurgence.",
+          "Maintain proper plant spacing for aeration."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Spiromesifen 22.9% SC or Flonicamid 50% WG",
+        "dosage": "1 ml/L Spiromesifen or 0.3 g/L Flonicamid",
+        "organic_control": "Spray Verticillium lecanii bio-fungicide @ 5 g/L.",
+        "safety_notes": "Re-entry interval (REI) is 12 hours. Wear coveralls during spraying.",
+        "prevention": [
+          "Spray Beauveria bassiana bio-pesticide @ 5 g/L.",
+          "Clear alternate hosts like Abutilon and Solanum weeds."
+        ]
+      },
+      "Low": {
+        "pesticide": "Fish Oil Rosin Soap",
+        "dosage": "25 g/L preventive spray",
+        "organic_control": "Spray 2% Neem Oil formulation.",
+        "safety_notes": "Store in dry area away from direct sunlight.",
+        "prevention": [
+          "Monitor under-surface of leaves weekly."
+        ]
+      }
+    }
+  },
+  "Gram": {
+    "Gram Pod Borer": {
+      "High": {
+        "pesticide": "Chlorantraniliprole 18.5% SC or Flubendiamide 39.35% SC",
+        "dosage": "0.3 ml/L Chlorantraniliprole or 0.2 ml/L Flubendiamide",
+        "organic_control": "Spray HaNPV (Helicoverpa NPV) @ 250 LE/acre mixed with 0.5% jaggery or crude neem oil @ 5 ml/L.",
+        "safety_notes": "Apply HaNPV during evening hours as UV light degrades viral polyhedra. Wear protective gear.",
+        "prevention": [
+          "Erect T-shaped bird perches @ 15 per acre.",
+          "Install Helicoverpa pheromone traps @ 5 per acre.",
+          "Deep summer plowing to expose pupae to birds and sunlight."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Indoxacarb 14.5% SC or Emamectin Benzoate 5% SG",
+        "dosage": "0.5 ml/L Indoxacarb or 0.4 g/L Emamectin Benzoate",
+        "organic_control": "Spray Bacillus thuringiensis kurstaki @ 2 g/L.",
+        "safety_notes": "Keep 10-day pre-harvest safety interval.",
+        "prevention": [
+          "Spray HaNPV (Helicoverpa Nuclear Polyhedrosis Virus) @ 250 LE/acre.",
+          "Intercrop Gram with Mustard or Coriander."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Oil 1500 ppm",
+        "dosage": "5 ml/L preventive spray",
+        "organic_control": "Handpick early instar larvae and release Trichogramma chilonis.",
+        "safety_notes": "Avoid skin contact with concentrate.",
+        "prevention": [
+          "Handpick large larvae during early infestation."
+        ]
+      }
+    },
+    "Cutworm": {
+      "High": {
+        "pesticide": "Chlorpyrifos 20% EC (Soil drench)",
+        "dosage": "3 ml/L water drenching around plant base during evening",
+        "organic_control": "Apply Beauveria bassiana soil drench @ 10 g/L or moisten soil with Neem cake @ 100 kg/acre.",
+        "safety_notes": "Soil drenching must be done late afternoon. Prevent runoff into drainage channels.",
+        "prevention": [
+          "Flood field prior to sowing to force larvae to surface.",
+          "Apply poison bait (Rice bran 10 kg + Jaggery 1 kg + Chlorpyrifos 250 ml/acre).",
+          "Deep summer plowing."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Quinalphos 25% EC",
+        "dosage": "2 ml/L soil spray near root zone",
+        "organic_control": "Apply poison bait made with rice bran and neem cake.",
+        "safety_notes": "Toxic to birds and fish. Use localized spot drenching.",
+        "prevention": [
+          "Collect and destroy cut seedlings and hidden larvae."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Cake application",
+        "dosage": "100 kg/acre soil incorporation",
+        "organic_control": "Incorporate crushed Neem seeds into root zone.",
+        "safety_notes": "Organic amendment safe for soil beneficials.",
+        "prevention": [
+          "Keep field weed-free."
+        ]
+      }
+    },
+    "Aphid": {
+      "High": {
+        "pesticide": "Dimethoate 30% EC or Oxydemeton-methyl 25% EC",
+        "dosage": "1.7 ml/L Dimethoate or 1.5 ml/L Oxydemeton-methyl",
+        "organic_control": "Spray Verticillium lecanii @ 5 g/L or cold-pressed Neem Oil 10,000 ppm @ 2 ml/L.",
+        "safety_notes": "Wear respirator during mixing. Do not spray during peak bloom.",
+        "prevention": [
+          "Yellow sticky traps @ 10/acre.",
+          "Conserve Coccinellid predators."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Imidacloprid 17.8% SL",
+        "dosage": "0.3 ml/L",
+        "organic_control": "Foliar spray of NSKE 5%.",
+        "safety_notes": "Follow label instructions for dilution.",
+        "prevention": [
+          "Avoid excessive irrigation during cloudy weather."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Oil 1500 ppm",
+        "dosage": "5 ml/L preventive spray",
+        "organic_control": "Spray soapy water solution.",
+        "safety_notes": "Harmless to non-target mammals.",
+        "prevention": [
+          "Scout tender shoots."
+        ]
+      }
+    }
+  },
+  "Groundnut": {
+    "Aphid": {
+      "High": {
+        "pesticide": "Imidacloprid 17.8% SL or Thiamethoxam 25% WG",
+        "dosage": "0.3 ml/L Imidacloprid or 0.2 g/L Thiamethoxam",
+        "organic_control": "Spray Neem Oil 1500 ppm @ 5 ml/L or release Chrysoperla carnea biocontrol agents.",
+        "safety_notes": "Toxic to bees. Avoid spraying during flowering stage.",
+        "prevention": [
+          "Yellow sticky traps @ 10 per acre.",
+          "Maintain optimum plant density."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Dimethoate 30% EC",
+        "dosage": "1.5 ml/L",
+        "organic_control": "Spray NSKE 5% solution.",
+        "safety_notes": "Use protective rubber boots and gloves.",
+        "prevention": [
+          "Remove weed hosts like Trianthema portulacastrum."
+        ]
+      },
+      "Low": {
+        "pesticide": "NSKE 5%",
+        "dosage": "50 g/L",
+        "organic_control": "Spray mild soap solution.",
+        "safety_notes": "Safe for friendly insects.",
+        "prevention": [
+          "Field sanitation."
+        ]
+      }
+    },
+    "Leaf Miner": {
+      "High": {
+        "pesticide": "Quinalphos 25% EC or Chlorpyrifos 20% EC",
+        "dosage": "2 ml/L Quinalphos or 2 ml/L Chlorpyrifos",
+        "organic_control": "Spray Bacillus thuringiensis @ 2 g/L or Neem Oil 10,000 ppm @ 2 ml/L.",
+        "safety_notes": "Re-entry interval is 24 hours. Wash face and hands thoroughly after application.",
+        "prevention": [
+          "Set up light traps @ 1 per acre to capture moths.",
+          "Intercrop Groundnut with Bajra / Cowpea (4:1 ratio)."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Dichlorvos 76% EC or Neem Oil 1500 ppm",
+        "dosage": "1 ml/L Dichlorvos or 5 ml/L Neem Oil",
+        "organic_control": "Spray NSKE 5% @ 50 g/L.",
+        "safety_notes": "Avoid inhalation of vapours.",
+        "prevention": [
+          "Mulching with crop residue."
+        ]
+      },
+      "Low": {
+        "pesticide": "NSKE 5%",
+        "dosage": "50 g/L",
+        "organic_control": "Light trap installation.",
+        "safety_notes": "No safety hazard.",
+        "prevention": [
+          "Watch for small blister mines on leaves."
+        ]
+      }
+    },
+    "Spodoptera": {
+      "High": {
+        "pesticide": "Novaluron 10% EC or Chlorantraniliprole 18.5% SC",
+        "dosage": "1 ml/L Novaluron or 0.3 ml/L Chlorantraniliprole",
+        "organic_control": "Spray SINPV (Spodoptera litura NPV) @ 250 LE/acre in late afternoon.",
+        "safety_notes": "Store SINPV in refrigerator until use. Do not expose to direct sun heat.",
+        "prevention": [
+          "Collect and destroy egg masses and skeletonized leaves.",
+          "Spray SINPV (Spodoptera litura NPV) @ 250 LE/acre during evening."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Emamectin Benzoate 5% SG",
+        "dosage": "0.4 g/L",
+        "organic_control": "Spray Bt formulation @ 2 g/L.",
+        "safety_notes": "Wear face mask.",
+        "prevention": [
+          "Install Spodoptera pheromone traps @ 5 per acre."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Oil 1500 ppm",
+        "dosage": "5 ml/L",
+        "organic_control": "Castor border trap cropping.",
+        "safety_notes": "Eco-friendly.",
+        "prevention": [
+          "Castor trap crop planting along borders."
+        ]
+      }
+    }
+  },
+  "Maize": {
+    "Fall Armyworm": {
+      "High": {
+        "pesticide": "Emamectin Benzoate 5% SG or Spinetoram 11.7% SC",
+        "dosage": "0.4 g/L Emamectin Benzoate or 0.5 ml/L Spinetoram directed into whorl",
+        "organic_control": "Apply whorl placement of Beauveria bassiana @ 5 g/L or Neem cake + sand mixture (1:9 ratio).",
+        "safety_notes": "Direct spray nozzle into crop whorl. Wear face mask, long sleeves, and rubber gloves.",
+        "prevention": [
+          "Deep summer plowing to expose pupae.",
+          "Install pheromone traps @ 5 per acre.",
+          "Release Trichogramma chilonis @ 50,000/acre."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Chlorantraniliprole 18.5% SC or Azadirachtin 1500 ppm",
+        "dosage": "0.4 ml/L Chlorantraniliprole or 5 ml/L Azadirachtin",
+        "organic_control": "Apply Metarhizium anisopliae @ 5 g/L into whorls.",
+        "safety_notes": "Avoid drift to neighboring food crops.",
+        "prevention": [
+          "Push-Pull technology with Napier grass border.",
+          "Whorl application of sand + neem cake mixture."
+        ]
+      },
+      "Low": {
+        "pesticide": "NSKE 5%",
+        "dosage": "50 g/L preventive spray",
+        "organic_control": "Spray NSKE 5% into leaf whorls.",
+        "safety_notes": "Safe for environment.",
+        "prevention": [
+          "Weekly scouting for pin-hole leaf damage."
+        ]
+      }
+    },
+    "Shoot Fly": {
+      "High": {
+        "pesticide": "Imidacloprid 48% FS (Seed treatment) or Phorate 10G",
+        "dosage": "Seed treatment @ 6 ml/kg seed or Phorate granules in soil",
+        "organic_control": "Apply Neem seed powder soil treatment @ 50 kg/acre.",
+        "safety_notes": "Phorate is extremely toxic. Use granular applicator with gloves. Never handle with bare hands.",
+        "prevention": [
+          "Sow early with high seed rate (1.25x normal).",
+          "Remove dead hearts and burn infested plants."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Dimethoate 30% EC",
+        "dosage": "1.7 ml/L",
+        "organic_control": "Set up fish meal traps @ 10/acre.",
+        "safety_notes": "Keep out of reach of domestic animals.",
+        "prevention": [
+          "Fish meal traps @ 10/acre to attract adult flies."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Oil 1500 ppm",
+        "dosage": "5 ml/L",
+        "organic_control": "Release egg parasitoids.",
+        "safety_notes": "Non-hazardous.",
+        "prevention": [
+          "Prompt field sanitation."
+        ]
+      }
+    },
+    "Stem Borer": {
+      "High": {
+        "pesticide": "Carbofuran 3G or Fipronil 0.3% GR",
+        "dosage": "Whorl application of 5 kg granules/acre",
+        "organic_control": "Release Trichogramma chilonis egg parasitoids @ 50,000/acre at weekly intervals.",
+        "safety_notes": "Do not apply Carbofuran within 30 days of harvest.",
+        "prevention": [
+          "Release Trichogramma chilonis parasitoids @ 50,000/acre.",
+          "Destroy stubbles post-harvest."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Chlorantraniliprole 18.5% SC",
+        "dosage": "0.3 ml/L",
+        "organic_control": "Spray Bt formulation @ 2 g/L.",
+        "safety_notes": "Store pesticide in original sealed container.",
+        "prevention": [
+          "Intercrop Maize with Cowpea."
+        ]
+      },
+      "Low": {
+        "pesticide": "NSKE 5%",
+        "dosage": "50 g/L",
+        "organic_control": "Intercrop with Cowpea.",
+        "safety_notes": "Safe practice.",
+        "prevention": [
+          "Regular deadheart monitoring."
+        ]
+      }
+    }
+  },
+  "Mustard": {
+    "Mustard Aphid": {
+      "High": {
+        "pesticide": "Dimethoate 30% EC or Thiamethoxam 25% WG",
+        "dosage": "1.7 ml/L Dimethoate or 0.2 g/L Thiamethoxam",
+        "organic_control": "Spray Neem Oil 1500 ppm @ 5 ml/L or Verticillium lecanii bio-fungicide @ 5 g/L.",
+        "safety_notes": "Do not spray during morning flowering hours to protect honeybee pollinators.",
+        "prevention": [
+          "Early sowing before 15th October to escape peak aphid flight.",
+          "Yellow sticky traps @ 12 per acre."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Imidacloprid 17.8% SL or Oxydemeton-methyl 25% EC",
+        "dosage": "0.3 ml/L Imidacloprid or 1.5 ml/L Oxydemeton-methyl",
+        "organic_control": "Spray NSKE 5% @ 50 g/L.",
+        "safety_notes": "Use face mask during spray preparation.",
+        "prevention": [
+          "Pluck and destroy aphid infested twigs during initial stage."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Oil 1500 ppm",
+        "dosage": "5 ml/L preventive spray",
+        "organic_control": "Yellow sticky trap installation.",
+        "safety_notes": "Harmless to bees if applied in evening.",
+        "prevention": [
+          "Conserve ladybird beetles (Coccinella septempunctata)."
+        ]
+      }
+    },
+    "Diamondback Moth": {
+      "High": {
+        "pesticide": "Spinosad 45% SC or Chlorantraniliprole 18.5% SC",
+        "dosage": "0.3 ml/L Spinosad or 0.4 ml/L Chlorantraniliprole",
+        "organic_control": "Spray Bacillus thuringiensis (Bt) @ 2 g/L or release Trichogramma brassicae @ 50,000/acre.",
+        "safety_notes": "Rotate chemical modes of action to prevent DBM insecticide resistance.",
+        "prevention": [
+          "Install DBM pheromone traps @ 5 per acre.",
+          "Intercrop Mustard with Mustard + Tomato as trap crop."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Emamectin Benzoate 5% SG or Bacillus thuringiensis (Bt)",
+        "dosage": "0.4 g/L Emamectin or 2 g/L Bt formulation",
+        "organic_control": "Spray Neem Oil 10,000 ppm @ 2 ml/L.",
+        "safety_notes": "Re-entry interval is 12 hours.",
+        "prevention": [
+          "Remove mustard crop residues post-harvest."
+        ]
+      },
+      "Low": {
+        "pesticide": "NSKE 5%",
+        "dosage": "50 g/L",
+        "organic_control": "Intercrop with tomato.",
+        "safety_notes": "Safe practice.",
+        "prevention": [
+          "Scout leaf undersides."
+        ]
+      }
+    },
+    "Painted Bug": {
+      "High": {
+        "pesticide": "Malathion 50% EC or Quinalphos 25% EC",
+        "dosage": "1.5 ml/L Malathion or 2 ml/L Quinalphos",
+        "organic_control": "Spray Beauveria bassiana @ 5 g/L or Neem cake incorporation into soil.",
+        "safety_notes": "Harmful to beneficial soil microbes if over-applied.",
+        "prevention": [
+          "First irrigation 3-4 weeks after sowing drowns bug nymphs.",
+          "Deep summer plowing."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Chlorpyrifos 20% EC",
+        "dosage": "2 ml/L",
+        "organic_control": "Handpick and destroy adult bugs in early morning.",
+        "safety_notes": "Avoid spray drift onto water sources.",
+        "prevention": [
+          "Collect and destroy adult bugs early morning."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Oil 1500 ppm",
+        "dosage": "5 ml/L",
+        "organic_control": "Spray cold-pressed neem oil.",
+        "safety_notes": "Safe.",
+        "prevention": [
+          "Keep bunds weed free."
+        ]
+      }
+    }
+  },
+  "Rice": {
+    "Brown Planthopper": {
+      "High": {
+        "pesticide": "Pymetrozine 50% WG or Dinotefuran 20% SG",
+        "dosage": "0.6 g/L Pymetrozine or 0.4 g/L Dinotefuran directed at stem base",
+        "organic_control": "Foliar spray of Metarhizium anisopliae @ 5 g/L (1x10^8 spores/g) directed at stem base.",
+        "safety_notes": "Direct nozzle strictly toward plant base/stem. Do not use synthetic pyrethroids which cause hopperburn resurgence.",
+        "prevention": [
+          "Drain field water for 3-4 days to arrest BPH multiplication (Alternate Wetting and Drying).",
+          "Avoid excessive nitrogenous fertilizer application.",
+          "Avoid synthetic pyrethroids."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Triflumezopyrim 10.6% SC or Buprofezin 25% SC",
+        "dosage": "0.5 ml/L Triflumezopyrim or 1.5 ml/L Buprofezin",
+        "organic_control": "Spray Neem Oil 1500 ppm @ 5 ml/L.",
+        "safety_notes": "Ensure 15-day pre-harvest interval.",
+        "prevention": [
+          "Form alleyways of 30 cm every 2 m during transplanting for aeration."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Oil 1500 ppm",
+        "dosage": "5 ml/L stem-directed spray",
+        "organic_control": "Conserve wolf spiders.",
+        "safety_notes": "Safe for aquatic spiders.",
+        "prevention": [
+          "Conserve wolf spiders (Pardosa pseudoannulata) and mirid bugs."
+        ]
+      }
+    },
+    "Leaf Folder": {
+      "High": {
+        "pesticide": "Flubendiamide 20% WG or Chlorantraniliprole 18.5% SC",
+        "dosage": "0.25 g/L Flubendiamide or 0.3 ml/L Chlorantraniliprole",
+        "organic_control": "Release Trichogramma chilonis parasitoids @ 40,000/acre or spray Bt formulation @ 2 g/L.",
+        "safety_notes": "Pass rope across canopy prior to spraying to open folded leaves.",
+        "prevention": [
+          "Pass a 15-meter thick rope across crop canopy to dislodge folded larvae into water.",
+          "Release Trichogramma chilonis parasitoids @ 40,000/acre."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Cartap Hydrochloride 50% SP or Indoxacarb 14.5% SC",
+        "dosage": "1 g/L Cartap or 0.5 ml/L Indoxacarb",
+        "organic_control": "Spray NSKE 5% @ 50 g/L.",
+        "safety_notes": "Wear protective mask.",
+        "prevention": [
+          "Clip leaf tips containing eggs prior to transplanting."
+        ]
+      },
+      "Low": {
+        "pesticide": "NSKE 5%",
+        "dosage": "50 g/L",
+        "organic_control": "Rope passing across field.",
+        "safety_notes": "Mechanical safe control.",
+        "prevention": [
+          "Avoid excessive shading."
+        ]
+      }
+    },
+    "Stem Borer": {
+      "High": {
+        "pesticide": "Chlorantraniliprole 0.4% GR or Cartap Hydrochloride 4G",
+        "dosage": "4 kg/acre Chlorantraniliprole granules broadcast in 2 inch standing water",
+        "prevention": [
+          "Clip leaf tips of seedlings to remove egg masses before transplanting.",
+          "Install yellow stem borer pheromone traps @ 5 per acre.",
+          "Harvest close to ground level."
+        ],
+        "organic_control": "Release Trichogramma japonicum parasitoids @ 50,000/acre at weekly intervals.",
+        "safety_notes": "Broadcast granular formulations in standing water. Keep water impounded for 3 days post-application."
+      },
+      "Medium": {
+        "pesticide": "Fipronil 5% SC or Fipronil 0.3% GR",
+        "dosage": "2 ml/L Fipronil spray or 7 kg/acre granules",
+        "organic_control": "Spray Bt formulation @ 2 g/L.",
+        "safety_notes": "Toxic to honeybees and aquatic flora.",
+        "prevention": [
+          "Release Trichogramma japonicum @ 50,000/acre."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Seed Kernel Extract 5%",
+        "dosage": "50 g/L",
+        "organic_control": "Clip seedling leaf tips before transplanting.",
+        "safety_notes": "Safe cultural practice.",
+        "prevention": [
+          "Monitor deadhearts in vegetative stage and whiteheads at flowering."
+        ]
+      }
+    }
+  },
+  "Soybean": {
+    "Spodoptera": {
+      "High": {
+        "pesticide": "Chlorantraniliprole 18.5% SC or Spinetoram 11.7% SC",
+        "dosage": "0.3 ml/L Chlorantraniliprole or 0.5 ml/L Spinetoram",
+        "organic_control": "Spray SINPV @ 250 LE/acre mixed with crude sugar solution during evening.",
+        "safety_notes": "Apply during evening hours when larvae emerge from hiding. Wear protective clothing.",
+        "prevention": [
+          "Collect and destroy egg masses and gregarious young larvae.",
+          "Install Spodoptera pheromone traps @ 5/acre.",
+          "Spray SINPV @ 250 LE/acre."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Emamectin Benzoate 5% SG or Novaluron 10% EC",
+        "dosage": "0.4 g/L Emamectin or 1 ml/L Novaluron",
+        "organic_control": "Spray Beauveria bassiana @ 5 g/L.",
+        "safety_notes": "Keep pre-harvest safety interval of 14 days.",
+        "prevention": [
+          "Intercrop Soybean with Maize or Sorghum."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Oil 1500 ppm",
+        "dosage": "5 ml/L",
+        "organic_control": "Erect bird perches @ 15/acre.",
+        "safety_notes": "Non-toxic.",
+        "prevention": [
+          "Erect bird perches."
+        ]
+      }
+    },
+    "Stem Fly": {
+      "High": {
+        "pesticide": "Thiamethoxam 30% FS (Seed treatment) or Phorate 10G",
+        "dosage": "10 ml/kg seed treatment or 4 kg/acre soil granules",
+        "organic_control": "Soil application of Neem cake @ 100 kg/acre at sowing.",
+        "safety_notes": "Chemical seed treatments require gloves and respiratory mask during mixing.",
+        "prevention": [
+          "Early sowing with recommended seed rate.",
+          "Destroy infested dried stem stubbles."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Dimethoate 30% EC",
+        "dosage": "1.5 ml/L",
+        "organic_control": "Spray NSKE 5% @ 50 g/L.",
+        "safety_notes": "Avoid spray drift.",
+        "prevention": [
+          "Remove wilted plant shoots."
+        ]
+      },
+      "Low": {
+        "pesticide": "NSKE 5%",
+        "dosage": "50 g/L",
+        "organic_control": "Clean weeding.",
+        "safety_notes": "Safe practice.",
+        "prevention": [
+          "Clean cultivation."
+        ]
+      }
+    },
+    "Girdle Beetle": {
+      "High": {
+        "pesticide": "Triazophos 40% EC or Chlorantraniliprole 18.5% SC",
+        "dosage": "1.5 ml/L Triazophos or 0.3 ml/L Chlorantraniliprole",
+        "organic_control": "Handpick and destroy girdled plant stems and petiole rings immediately.",
+        "safety_notes": "Triazophos is organophosphate class. Use full protective suit during spraying.",
+        "prevention": [
+          "Hand-pick and destroy girdled plant stems/petioles immediately.",
+          "Keep field bunds clear of weed hosts."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Thiacloprid 21.7% SC",
+        "dosage": "1.2 ml/L",
+        "organic_control": "Spray Neem Oil 1500 ppm @ 5 ml/L.",
+        "safety_notes": "Follow label safety instructions.",
+        "prevention": [
+          "Use recommended optimum plant density."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Oil 1500 ppm",
+        "dosage": "5 ml/L",
+        "organic_control": "Manual collection of girdled leaves.",
+        "safety_notes": "Safe.",
+        "prevention": [
+          "Weekly crop scouting."
+        ]
+      }
+    }
+  },
+  "Sugarcane": {
+    "Early Shoot Borer": {
+      "High": {
+        "pesticide": "Chlorantraniliprole 18.5% SC or Fipronil 0.3% GR",
+        "dosage": "0.4 ml/L spray at 45 & 90 DAP or 10 kg/acre granules in soil",
+        "organic_control": "Release Trichogramma chilonis egg parasitoids @ 50,000/acre at 15-day intervals or trash mulching @ 3 tonnes/acre.",
+        "safety_notes": "Do not burn trash post-harvest. Wear gloves during granular application.",
+        "prevention": [
+          "Trash mulching @ 3 tonnes/acre at 30 days post-planting.",
+          "Release Trichogramma chilonis egg parasitoids @ 50,000/acre at 15-day intervals."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Chlorpyrifos 20% EC",
+        "dosage": "2 ml/L spray along setts",
+        "organic_control": "Earthing up soil at 45 DAP.",
+        "safety_notes": "Keep animals out of field for 48 hours.",
+        "prevention": [
+          "Earthing up of soil at 45 days after planting."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Oil 1500 ppm",
+        "dosage": "5 ml/L",
+        "organic_control": "Remove deadhearts manually.",
+        "safety_notes": "Eco-friendly.",
+        "prevention": [
+          "Remove and destroy deadhearts."
+        ]
+      }
+    },
+    "Pyrilla": {
+      "High": {
+        "pesticide": "Malathion 50% EC or Chlorpyrifos 20% EC",
+        "dosage": "2 ml/L Malathion or 2 ml/L Chlorpyrifos",
+        "organic_control": "Conserve Epiricania melanoleuca fungal/nymphal parasitoids or spray Beauveria bassiana @ 5 g/L.",
+        "safety_notes": "Check for Epiricania cocoon presence before spraying to prevent killing natural parasites.",
+        "prevention": [
+          "Conserve Epiricania melanoleuca fungal/nymphal parasitoid.",
+          "Detrash lower dried leaves at 150 and 210 DAP."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Quinalphos 25% EC",
+        "dosage": "2 ml/L",
+        "organic_control": "Detrash lower dried leaves.",
+        "safety_notes": "Use protective goggles.",
+        "prevention": [
+          "Avoid over-application of nitrogenous fertilizers."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Seed Extract 5%",
+        "dosage": "50 g/L",
+        "organic_control": "Egg mass collection.",
+        "safety_notes": "Safe.",
+        "prevention": [
+          "Monitor leaf undersides for egg masses."
+        ]
+      }
+    },
+    "Top Borer": {
+      "High": {
+        "pesticide": "Carbofuran 3G or Chlorantraniliprole 18.5% SC",
+        "dosage": "12 kg/acre granules applied in soil or 0.4 ml/L foliar spray",
+        "organic_control": "Release Trichogramma japonicum parasitoids @ 50,000/acre.",
+        "safety_notes": "Observe 30-day pre-harvest safety interval.",
+        "prevention": [
+          "Collect and destroy egg masses covered with reddish-brown hairs.",
+          "Release Trichogramma japonicum parasitoids @ 50,000/acre."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Fipronil 5% SC",
+        "dosage": "2 ml/L",
+        "organic_control": "Cut infested shoots below ground level.",
+        "safety_notes": "Avoid spray during high temperature hours.",
+        "prevention": [
+          "Cut infested shoots below soil level."
+        ]
+      },
+      "Low": {
+        "pesticide": "NSKE 5%",
+        "dosage": "50 g/L",
+        "organic_control": "Handpick egg masses.",
+        "safety_notes": "Safe practice.",
+        "prevention": [
+          "Field sanitation."
+        ]
+      }
+    }
+  },
+  "Tur (Arhar)": {
+    "Pod Borer": {
+      "High": {
+        "pesticide": "Chlorantraniliprole 18.5% SC or Flubendiamide 39.35% SC",
+        "dosage": "0.3 ml/L Chlorantraniliprole or 0.2 ml/L Flubendiamide",
+        "organic_control": "Spray HaNPV @ 250 LE/acre in evening or crude Neem Oil 10,000 ppm @ 2 ml/L.",
+        "safety_notes": "HaNPV must be mixed with 0.5% jaggery as UV protectant and phagostimulant. Wear mask.",
+        "prevention": [
+          "Install Helicoverpa pheromone traps @ 5 per acre.",
+          "Erect T-bird perches @ 15/acre.",
+          "Spray HaNPV @ 250 LE/acre at flowering."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Indoxacarb 14.5% SC or Emamectin Benzoate 5% SG",
+        "dosage": "0.5 ml/L Indoxacarb or 0.4 g/L Emamectin",
+        "organic_control": "Shake plants over cloth to dislodge larvae.",
+        "safety_notes": "Follow 14-day PHI.",
+        "prevention": [
+          "Shake plants over cloth sheets to collect and destroy larvae."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Oil 1500 ppm",
+        "dosage": "5 ml/L",
+        "organic_control": "Intercrop with Sorghum or Bajra.",
+        "safety_notes": "Eco-friendly.",
+        "prevention": [
+          "Intercrop Tur with Sorghum or Bajra."
+        ]
+      }
+    },
+    "Pod Fly": {
+      "High": {
+        "pesticide": "Monocrotophos 36% SL or Dimethoate 30% EC",
+        "dosage": "1.5 ml/L Monocrotophos or 1.7 ml/L Dimethoate",
+        "organic_control": "Foliar spray of NSKE 5% @ 50 g/L or cold-pressed Neem Oil @ 5 ml/L.",
+        "safety_notes": "Monocrotophos is organophosphate class. Wear full protective suit. Do not spray near water bodies.",
+        "prevention": [
+          "Harvest crop promptly when pods mature.",
+          "Collect and destroy infested pods showing exit holes."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Quinalphos 25% EC",
+        "dosage": "2 ml/L",
+        "organic_control": "Prompt pod harvesting.",
+        "safety_notes": "Avoid spray drift.",
+        "prevention": [
+          "Avoid dense crop canopy."
+        ]
+      },
+      "Low": {
+        "pesticide": "NSKE 5%",
+        "dosage": "50 g/L",
+        "organic_control": "Pod scouting.",
+        "safety_notes": "Safe.",
+        "prevention": [
+          "Scout pod formation."
+        ]
+      }
+    },
+    "Plume Moth": {
+      "High": {
+        "pesticide": "Quinalphos 25% EC or Emamectin Benzoate 5% SG",
+        "dosage": "2 ml/L Quinalphos or 0.4 g/L Emamectin",
+        "organic_control": "Spray Bt formulation @ 2 g/L or Neem Oil 1500 ppm @ 5 ml/L.",
+        "safety_notes": "Wear respirator during mixing.",
+        "prevention": [
+          "Handpick webbed flower buds and pods.",
+          "Destruction of alternate weed hosts."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Neem Oil 1500 ppm or Methomyl 40% SP",
+        "dosage": "5 ml/L Neem Oil or 1 g/L Methomyl",
+        "organic_control": "Handpick webbed buds.",
+        "safety_notes": "Keep out of reach of children.",
+        "prevention": [
+          "Early morning field collection."
+        ]
+      },
+      "Low": {
+        "pesticide": "NSKE 5%",
+        "dosage": "50 g/L",
+        "organic_control": "Flower bud scouting.",
+        "safety_notes": "Safe.",
+        "prevention": [
+          "Scout flower buds."
+        ]
+      }
+    }
+  },
+  "Wheat": {
+    "Aphid": {
+      "High": {
+        "pesticide": "Thiamethoxam 25% WG or Imidacloprid 17.8% SL",
+        "dosage": "0.2 g/L Thiamethoxam or 0.3 ml/L Imidacloprid",
+        "organic_control": "Spray Neem Oil 1500 ppm @ 5 ml/L or Verticillium lecanii @ 5 g/L.",
+        "safety_notes": "Do not spray during honeybee foraging hours.",
+        "prevention": [
+          "Yellow sticky traps @ 10 per acre.",
+          "Conserve ladybird beetle adult and larval predators.",
+          "Balanced fertilizer application."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Dimethoate 30% EC",
+        "dosage": "1.5 ml/L",
+        "organic_control": "Spray NSKE 5%.",
+        "safety_notes": "Use protective gloves.",
+        "prevention": [
+          "Avoid late sowing of wheat."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Oil 1500 ppm",
+        "dosage": "5 ml/L",
+        "organic_control": "Yellow sticky traps.",
+        "safety_notes": "Safe for environment.",
+        "prevention": [
+          "Regular earhead scouting."
+        ]
+      }
+    },
+    "Armyworm": {
+      "High": {
+        "pesticide": "Quinalphos 25% EC or Chlorpyrifos 20% EC",
+        "dosage": "2 ml/L Quinalphos or 2 ml/L Chlorpyrifos evening spray",
+        "organic_control": "Dig 30 cm barrier trenches around field or spray Bt formulation @ 2 g/L during evening.",
+        "safety_notes": "Apply during late evening hours when caterpillars crawl up earheads. Wear PPE.",
+        "prevention": [
+          "Dig 30 cm deep barrier trenches around field during heavy movement.",
+          "Erect bird perches @ 15/acre.",
+          "Flood field to submerge hiding larvae."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Emamectin Benzoate 5% SG",
+        "dosage": "0.4 g/L",
+        "organic_control": "Spray Beauveria bassiana @ 5 g/L.",
+        "safety_notes": "Observe 14-day pre-harvest safety interval.",
+        "prevention": [
+          "Collect and destroy egg masses."
+        ]
+      },
+      "Low": {
+        "pesticide": "NSKE 5%",
+        "dosage": "50 g/L",
+        "organic_control": "Bird perches @ 15/acre.",
+        "safety_notes": "Eco-friendly.",
+        "prevention": [
+          "Field weed clearance."
+        ]
+      }
+    },
+    "Termite": {
+      "High": {
+        "pesticide": "Chlorpyrifos 20% EC or Fipronil 0.3% GR",
+        "dosage": "4 ml/L seed treatment before sowing or 7 kg/acre Fipronil granules in irrigation water",
+        "organic_control": "Incorporate well-decomposed FYM + Neem cake @ 100 kg/acre into soil before sowing.",
+        "safety_notes": "Ensure FYM is fully decomposed. Undecomposed manure attracts termites. Handle granules with gloves.",
+        "prevention": [
+          "Ensure complete decomposition of Farm Yard Manure (FYM) before field application.",
+          "Locate and destroy termite queen nests.",
+          "Light irrigation to moisten soil."
+        ]
+      },
+      "Medium": {
+        "pesticide": "Imidacloprid 600 FS (Seed treatment)",
+        "dosage": "3 ml/kg seed",
+        "organic_control": "Apply Neem cake in root zone.",
+        "safety_notes": "Wear gloves during seed treatment.",
+        "prevention": [
+          "Remove undecomposed stubbles and crop roots."
+        ]
+      },
+      "Low": {
+        "pesticide": "Neem Cake application",
+        "dosage": "100 kg/acre soil incorporation",
+        "organic_control": "Soil incorporation of crushed neem seeds.",
+        "safety_notes": "Organic amendment.",
+        "prevention": [
+          "Field sanitation."
+        ]
+      }
+    }
+  }
+}

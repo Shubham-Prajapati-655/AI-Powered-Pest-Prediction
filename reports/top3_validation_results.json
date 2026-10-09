@@ -1,0 +1,103 @@
+{
+  "num_samples": 100,
+  "strictly_descending_pass_rate": 1.0,
+  "schema_compliant_pass_rate": 1.0,
+  "tier_compliant_pass_rate": 1.0,
+  "advisory_valid_pass_rate": 1.0,
+  "latency_metrics_ms": {
+    "average": 105.48,
+    "p50": 100.99,
+    "p95": 118.59,
+    "max": 423.79,
+    "target_met": true
+  },
+  "sample_predictions": [
+    {
+      "sample_id": 1,
+      "crop": "Cotton",
+      "top_predictions": [
+        {
+          "rank": 1,
+          "pest": "Whitefly",
+          "probability": 30.6,
+          "normalized_probability": 37.36
+        },
+        {
+          "rank": 2,
+          "pest": "Pink Bollworm",
+          "probability": 30.07,
+          "normalized_probability": 36.72
+        },
+        {
+          "rank": 3,
+          "pest": "Aphid",
+          "probability": 21.22,
+          "normalized_probability": 25.92
+        }
+      ],
+      "risk_level": "High",
+      "risk_probability": 85.93,
+      "recommended_prediction": "Whitefly",
+      "confidence_tier": "Low Confidence",
+      "latency_ms": 118.58
+    },
+    {
+      "sample_id": 2,
+      "crop": "Tur (Arhar)",
+      "top_predictions": [
+        {
+          "rank": 1,
+          "pest": "Pod Borer",
+          "probability": 21.06,
+          "normalized_probability": 42.04
+        },
+        {
+          "rank": 2,
+          "pest": "Pod Fly",
+          "probability": 15.36,
+          "normalized_probability": 30.66
+        },
+        {
+          "rank": 3,
+          "pest": "Plume Moth",
+          "probability": 13.68,
+          "normalized_probability": 27.3
+        }
+      ],
+      "risk_level": "High",
+      "risk_probability": 92.54,
+      "recommended_prediction": "Pod Borer",
+      "confidence_tier": "Low Confidence",
+      "latency_ms": 106.38
+    },
+    {
+      "sample_id": 3,
+      "crop": "Maize",
+      "top_predictions": [
+        {
+          "rank": 1,
+          "pest": "Stem Borer",
+          "probability": 22.4,
+          "normalized_probability": 41.83
+        },
+        {
+          "rank": 2,
+          "pest": "Fall Armyworm",
+          "probability": 20.33,
+          "normalized_probability": 37.97
+        },
+        {
+          "rank": 3,
+          "pest": "Brown Planthopper",
+          "probability": 10.82,
+          "normalized_probability": 20.2
+        }
+      ],
+      "risk_level": "High",
+      "risk_probability": 54.91,
+      "recommended_prediction": "Stem Borer",
+      "confidence_tier": "Low Confidence",
+      "latency_ms": 104.8
+    }
+  ]
+}

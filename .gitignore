@@ -1,7 +1,73 @@
+# Python byte-compiled / optimized / cache files
 __pycache__/
 *.py[cod]
 *$py.class
-.ipynb_checkpoints/
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+
+# Databases & SQLite files
 *.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+database/*.db
+database/*.sqlite
+database/*.db-shm
+database/*.db-wal
+app/*.db
+
+# Log files
+logs/*.log
+*.log
+
+# Backups & Data exports
+backups/*.db
+backups/*.json
+backups/*.tar.gz
+
+# Uploaded User Avatars & Runtime Data
+uploads/avatars/*
+!uploads/avatars/.gitkeep
+data/avatars/*
+!data/avatars/.gitkeep
+
+# IDEs & Editor Configuration
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Testing & Coverage Caches
+.pytest_cache/
+**/.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Scratch & Temporary Testing Directories
+scratch/
+reports/generated_pdfs/*.pdf
+!reports/generated_pdfs/.gitkeep
+
+# Large Datasets & Experimental Models (>100MB GitHub Limit)
+datasets/master_crop_pest_advisory.csv
+models/test_optimized_model.pkl
+artifacts/best_model.pkl
+
+# OS specific files
+.DS_Store
+Thumbs.db

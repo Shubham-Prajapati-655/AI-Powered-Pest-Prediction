@@ -1,0 +1,353 @@
+{
+  "random_sample_validation": {
+    "total_tested": 100,
+    "success_rate": 1.0,
+    "mean_latency_ms": 793.32,
+    "median_latency_ms": 514.19,
+    "valid_advisories_count": 100
+  },
+  "realistic_agronomic_scenarios": [
+    {
+      "scenario": "Cotton - Kharif Humid Outbreak (Nagpur)",
+      "crop": "Cotton",
+      "predicted_pest": "Whitefly",
+      "pest_confidence": 43.26,
+      "predicted_risk": "High",
+      "risk_confidence": 99.29,
+      "top_3_pests": [
+        {
+          "rank": 1,
+          "pest": "Whitefly",
+          "confidence_percent": 43.26
+        },
+        {
+          "rank": 2,
+          "pest": "Pink Bollworm",
+          "confidence_percent": 31.56
+        },
+        {
+          "rank": 3,
+          "pest": "Aphid",
+          "confidence_percent": 19.21
+        }
+      ],
+      "advisory_pesticide": "Pyriproxyfen 10% EC or Diafenthiuron 50% WP",
+      "advisory_fertilizer": "Foliar spray of 1% Potassium Nitrate (KNO3) to boost boll defense. Suspend Urea application during sucking pest pressure.",
+      "latency_ms": 515.11,
+      "top3_matched_biological_group": true
+    },
+    {
+      "scenario": "Rice - Monsoon Waterlogged Lowland (Bardhaman)",
+      "crop": "Rice",
+      "predicted_pest": "Brown Planthopper",
+      "pest_confidence": 44.48,
+      "predicted_risk": "High",
+      "risk_confidence": 95.17,
+      "top_3_pests": [
+        {
+          "rank": 1,
+          "pest": "Brown Planthopper",
+          "confidence_percent": 44.48
+        },
+        {
+          "rank": 2,
+          "pest": "Stem Borer",
+          "confidence_percent": 30.44
+        },
+        {
+          "rank": 3,
+          "pest": "Leaf Folder",
+          "confidence_percent": 19.25
+        }
+      ],
+      "advisory_pesticide": "Pymetrozine 50% WG or Dinotefuran 20% SG",
+      "advisory_fertilizer": "Apply MOP (Potassium) @ 20 kg/ha to reinforce cell wall resistance against leafhoppers/borers. Strictly withhold excess Urea.",
+      "latency_ms": 489.19,
+      "top3_matched_biological_group": true
+    },
+    {
+      "scenario": "Wheat - Winter Dry Aphid Alert (Ludhiana)",
+      "crop": "Wheat",
+      "predicted_pest": "Pod Fly",
+      "pest_confidence": 16.21,
+      "predicted_risk": "Low",
+      "risk_confidence": 82.76,
+      "top_3_pests": [
+        {
+          "rank": 1,
+          "pest": "Pod Fly",
+          "confidence_percent": 16.21
+        },
+        {
+          "rank": 2,
+          "pest": "Termite",
+          "confidence_percent": 14.38
+        },
+        {
+          "rank": 3,
+          "pest": "Aphid",
+          "confidence_percent": 13.64
+        }
+      ],
+      "advisory_pesticide": "Azadirachtin (Neem Oil 1500 ppm) or Chlorantraniliprole 18.5% SC",
+      "advisory_fertilizer": "Basal Urea 35 kg/ha + DAP 55 kg/ha.",
+      "latency_ms": 492.09,
+      "top3_matched_biological_group": true
+    },
+    {
+      "scenario": "Sugarcane - Hot Dry Shoot Borer Window (Meerut)",
+      "crop": "Sugarcane",
+      "predicted_pest": "Pyrilla",
+      "pest_confidence": 40.57,
+      "predicted_risk": "Medium",
+      "risk_confidence": 64.33,
+      "top_3_pests": [
+        {
+          "rank": 1,
+          "pest": "Pyrilla",
+          "confidence_percent": 40.57
+        },
+        {
+          "rank": 2,
+          "pest": "Early Shoot Borer",
+          "confidence_percent": 21.49
+        },
+        {
+          "rank": 3,
+          "pest": "Top Borer",
+          "confidence_percent": 17.44
+        }
+      ],
+      "advisory_pesticide": "Quinalphos 25% EC",
+      "advisory_fertilizer": "Apply 17-17-17 @ 100 kg/ha in two split doses along the furrow.",
+      "latency_ms": 512.88,
+      "top3_matched_biological_group": true
+    },
+    {
+      "scenario": "Maize - Post-Monsoon Fall Armyworm Threat (Davanagere)",
+      "crop": "Maize",
+      "predicted_pest": "Fall Armyworm",
+      "pest_confidence": 43.6,
+      "predicted_risk": "High",
+      "risk_confidence": 99.9,
+      "top_3_pests": [
+        {
+          "rank": 1,
+          "pest": "Fall Armyworm",
+          "confidence_percent": 43.6
+        },
+        {
+          "rank": 2,
+          "pest": "Stem Borer",
+          "confidence_percent": 28.14
+        },
+        {
+          "rank": 3,
+          "pest": "Shoot Fly",
+          "confidence_percent": 19.69
+        }
+      ],
+      "advisory_pesticide": "Emamectin Benzoate 5% SG or Spinetoram 11.7% SC",
+      "advisory_fertilizer": "Apply Potash @ 25 kg/ha to enhance stalk mechanical strength against Fall Armyworm. Delay N application until whorl scouting.",
+      "latency_ms": 467.55,
+      "top3_matched_biological_group": true
+    },
+    {
+      "scenario": "Soybean - Monsoon Girdle Beetle Scouting (Indore)",
+      "crop": "Soybean",
+      "predicted_pest": "Girdle Beetle",
+      "pest_confidence": 36.37,
+      "predicted_risk": "High",
+      "risk_confidence": 99.11,
+      "top_3_pests": [
+        {
+          "rank": 1,
+          "pest": "Girdle Beetle",
+          "confidence_percent": 36.37
+        },
+        {
+          "rank": 2,
+          "pest": "Stem Fly",
+          "confidence_percent": 29.55
+        },
+        {
+          "rank": 3,
+          "pest": "Spodoptera",
+          "confidence_percent": 24.06
+        }
+      ],
+      "advisory_pesticide": "Triazophos 40% EC or Chlorantraniliprole 18.5% SC",
+      "advisory_fertilizer": "Foliar spray of 0.5% soluble Boron + 1% Potash. Legumes fix atmospheric N; avoid top-dressing nitrogen.",
+      "latency_ms": 501.36,
+      "top3_matched_biological_group": true
+    },
+    {
+      "scenario": "Gram - Pod Borer Reproductive Phase (Kurnool)",
+      "crop": "Gram",
+      "predicted_pest": "Aphid",
+      "pest_confidence": 24.84,
+      "predicted_risk": "High",
+      "risk_confidence": 87.06,
+      "top_3_pests": [
+        {
+          "rank": 1,
+          "pest": "Aphid",
+          "confidence_percent": 24.84
+        },
+        {
+          "rank": 2,
+          "pest": "Pink Bollworm",
+          "confidence_percent": 20.02
+        },
+        {
+          "rank": 3,
+          "pest": "Whitefly",
+          "confidence_percent": 14.62
+        }
+      ],
+      "advisory_pesticide": "Dimethoate 30% EC or Oxydemeton-methyl 25% EC",
+      "advisory_fertilizer": "Foliar spray of 2% DAP at flower initiation to accelerate pod wall thickening. Avoid soil nitrogen.",
+      "latency_ms": 471.67,
+      "top3_matched_biological_group": true
+    },
+    {
+      "scenario": "Mustard - Cold Foggy Mustard Aphid Bloom (Hisar)",
+      "crop": "Mustard",
+      "predicted_pest": "Brown Planthopper",
+      "pest_confidence": 33.03,
+      "predicted_risk": "Medium",
+      "risk_confidence": 79.38,
+      "top_3_pests": [
+        {
+          "rank": 1,
+          "pest": "Brown Planthopper",
+          "confidence_percent": 33.03
+        },
+        {
+          "rank": 2,
+          "pest": "Stem Borer",
+          "confidence_percent": 17.37
+        },
+        {
+          "rank": 3,
+          "pest": "Leaf Folder",
+          "confidence_percent": 15.38
+        }
+      ],
+      "advisory_pesticide": "Azadirachtin (Neem Oil 1500 ppm) or Chlorantraniliprole 18.5% SC",
+      "advisory_fertilizer": "Apply 20-20 @ 45 kg/ha with irrigation.",
+      "latency_ms": 481.3,
+      "top3_matched_biological_group": false
+    },
+    {
+      "scenario": "Groundnut - Sandy Subterranean Larvae Season (Rajkot)",
+      "crop": "Groundnut",
+      "predicted_pest": "Leaf Miner",
+      "pest_confidence": 37.26,
+      "predicted_risk": "High",
+      "risk_confidence": 99.72,
+      "top_3_pests": [
+        {
+          "rank": 1,
+          "pest": "Leaf Miner",
+          "confidence_percent": 37.26
+        },
+        {
+          "rank": 2,
+          "pest": "Aphid",
+          "confidence_percent": 34.62
+        },
+        {
+          "rank": 3,
+          "pest": "Spodoptera",
+          "confidence_percent": 24.1
+        }
+      ],
+      "advisory_pesticide": "Quinalphos 25% EC or Chlorpyrifos 20% EC",
+      "advisory_fertilizer": "Apply Gypsum @ 200 kg/ha at pegging stage to harden subterranean pods against soil insect larvae.",
+      "latency_ms": 517.0,
+      "top3_matched_biological_group": true
+    },
+    {
+      "scenario": "Tur (Arhar) - Flowering Pod Fly Window (Salem)",
+      "crop": "Tur",
+      "predicted_pest": "Pink Bollworm",
+      "pest_confidence": 28.81,
+      "predicted_risk": "High",
+      "risk_confidence": 98.94,
+      "top_3_pests": [
+        {
+          "rank": 1,
+          "pest": "Pink Bollworm",
+          "confidence_percent": 28.81
+        },
+        {
+          "rank": 2,
+          "pest": "Whitefly",
+          "confidence_percent": 23.27
+        },
+        {
+          "rank": 3,
+          "pest": "Aphid",
+          "confidence_percent": 17.46
+        }
+      ],
+      "advisory_pesticide": "Azadirachtin (Neem Oil 1500 ppm) or Chlorantraniliprole 18.5% SC",
+      "advisory_fertilizer": "Apply Potash @ 25 kg/ha to reinforce crop vigor. Suspend excess Nitrogen application.",
+      "latency_ms": 470.77,
+      "top3_matched_biological_group": false
+    }
+  ],
+  "edge_case_validations": [
+    {
+      "name": "Edge 1: Unseen District ('Kailash_Hills_999')",
+      "predicted_pest": "Brown Planthopper",
+      "pest_confidence": 32.87,
+      "predicted_risk": "High",
+      "risk_confidence": 99.23,
+      "advisory_pesticide": "Pymetrozine 50% WG or Dinotefuran 20% SG",
+      "latency_ms": 495.01,
+      "status": "GRACEFULLY_HANDLED"
+    },
+    {
+      "name": "Edge 2: Unseen Crop Cultivar ('ExoticDragonFruit_Alpha')",
+      "predicted_pest": "Whitefly",
+      "pest_confidence": 24.25,
+      "predicted_risk": "Medium",
+      "risk_confidence": 69.14,
+      "advisory_pesticide": "Azadirachtin (Neem Oil 1500 ppm) or Chlorantraniliprole 18.5% SC",
+      "latency_ms": 1301.09,
+      "status": "GRACEFULLY_HANDLED"
+    },
+    {
+      "name": "Edge 3: Missing Soil Chem (All NPK + pH + OC = None)",
+      "predicted_pest": "Whitefly",
+      "pest_confidence": 36.38,
+      "predicted_risk": "High",
+      "risk_confidence": 99.78,
+      "advisory_pesticide": "Pyriproxyfen 10% EC or Diafenthiuron 50% WP",
+      "latency_ms": 949.68,
+      "status": "GRACEFULLY_HANDLED"
+    },
+    {
+      "name": "Edge 4: Extreme Climatology (Temp=58.5\u00b0C, Rain=1200mm, Wind=115km/h)",
+      "predicted_pest": "Aphid",
+      "pest_confidence": 29.13,
+      "predicted_risk": "Medium",
+      "risk_confidence": 54.31,
+      "advisory_pesticide": "Dimethoate 30% EC",
+      "latency_ms": 934.03,
+      "status": "GRACEFULLY_HANDLED"
+    },
+    {
+      "name": "Edge 5: Completely Empty Input Dictionary ({})",
+      "predicted_pest": "Whitefly",
+      "pest_confidence": 36.75,
+      "predicted_risk": "High",
+      "risk_confidence": 99.91,
+      "advisory_pesticide": "Pyriproxyfen 10% EC or Diafenthiuron 50% WP",
+      "latency_ms": 649.32,
+      "status": "GRACEFULLY_HANDLED"
+    }
+  ]
+}
