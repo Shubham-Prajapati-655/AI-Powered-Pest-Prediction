@@ -1,3 +1,4 @@
+
 """
 Logging utilities for AI-Powered Crop Pest Prediction & Advisory System.
 """
@@ -5,10 +6,16 @@ import os
 import sys
 import logging
 
-LOG_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "logs")
+# Vercel serverless functions use /tmp for writable temporary files.
+LOG_DIR = "/tmp/logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 
-def setup_logger(name: str = "pest_pipeline", log_file: str = "pipeline.log", level=logging.INFO) -> logging.Logger:
+
+def setup_logger(
+    name: str = "pest_pipeline",
+    log_file: str = "pipeline.log",
+    level=logging.INFO
+) -> logging.Logger:
     """Configures and returns a thread-safe logger with console and file handlers."""
     logger = logging.getLogger(name)
     logger.setLevel(level)
@@ -20,7 +27,10 @@ def setup_logger(name: str = "pest_pipeline", log_file: str = "pipeline.log", le
         )
 
         # File Handler
-        fh = logging.FileHandler(os.path.join(LOG_DIR, log_file), encoding="utf-8")
+        fh = logging.FileHandler(
+            os.path.join(LOG_DIR, log_file),
+            encoding="utf-8"
+        )
         fh.setLevel(level)
         fh.setFormatter(formatter)
         logger.addHandler(fh)
