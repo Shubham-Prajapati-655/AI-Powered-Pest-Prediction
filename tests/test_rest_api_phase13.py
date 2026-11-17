@@ -33,8 +33,14 @@ class TestRestAPIPhase13:
         from src.predict import get_production_pipeline, load_advisory_knowledgebase
         get_production_pipeline()
         load_advisory_knowledgebase()
-        cls._cm = TestClient(app)
-        cls.client = cls._cm.__enter__()
+        cls.client = TestClient(app)
+        # Provide JWT Bearer token for protected regression test endpoints
+        try:
+            from app.security import create_access_token
+        except (ImportError, ModuleNotFoundError):
+            from security import create_access_token
+        auth_token = create_access_token({"sub": "1", "email": "admin@agriai.org", "role": "admin"})
+        cls.client.headers["Authorization"] = f"Bearer {auth_token}"
         # Pre-warm predict endpoint so subsequent timed assertions measure steady-state latency
         cls.client.post("/predict", json={
             "District": "Guntur", "Crop_Name": "Cotton", "Season": "Kharif",
@@ -44,8 +50,7 @@ class TestRestAPIPhase13:
 
     @classmethod
     def teardown_class(cls):
-        if hasattr(cls, "_cm"):
-            cls._cm.__exit__(None, None, None)
+        pass
 
     def test_01_get_health(self):
         """Verify GET /health returns 200 and healthy status."""

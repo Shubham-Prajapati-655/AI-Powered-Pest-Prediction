@@ -28,6 +28,11 @@ python-dotenv>=1.0.0
 
 # Enterprise Security, Database & Auth
 bcrypt>=4.0.0
+sqlalchemy>=2.0.0
+psycopg[binary]>=3.1.0
+psycopg2-binary>=2.9.0
+alembic>=1.13.0
+pyjwt>=2.8.0
 
 # REST API & Production Microservice
 fastapi>=0.115.0

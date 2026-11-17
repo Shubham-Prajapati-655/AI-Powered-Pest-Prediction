@@ -2,15 +2,26 @@ import html
 import re
 import time
 import uuid
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Tuple, Optional
+from typing import Tuple, Optional, Dict, Any
+
+try:
+    import jwt
+    _HAS_PYJWT = True
+except ImportError:
+    jwt = None
+    _HAS_PYJWT = False
 
 from config import (
     MAX_LOGIN_ATTEMPTS,
     LOGIN_LOCKOUT_MINUTES,
     MAX_AVATAR_SIZE_BYTES,
     ALLOWED_AVATAR_EXTENSIONS,
-    AVATARS_DIR
+    AVATARS_DIR,
+    JWT_SECRET_KEY,
+    JWT_ALGORITHM,
+    JWT_EXPIRATION_HOURS
 )
 from logger import log_security_event
 
@@ -119,3 +130,49 @@ def save_validated_avatar(secure_filename: str, file_bytes: bytes) -> str:
     with open(target_path, "wb") as f:
         f.write(file_bytes)
     return str(target_path)
+
+# ==============================================================================
+# JWT AUTHENTICATION TOKEN GENERATION & VERIFICATION
+# ==============================================================================
+
+def create_access_token(data: Dict[str, Any], expires_delta: Optional[timedelta] = None) -> str:
+    """
+    Create a signed JSON Web Token (JWT) with user claims and expiration timestamp.
+    """
+    if not _HAS_PYJWT:
+        raise RuntimeError("PyJWT library is required for JWT token generation.")
+
+    to_encode = data.copy()
+    now_utc = datetime.now(timezone.utc)
+    if expires_delta:
+        expire = now_utc + expires_delta
+    else:
+        expire = now_utc + timedelta(hours=JWT_EXPIRATION_HOURS)
+
+    to_encode.update({
+        "exp": expire,
+        "iat": now_utc
+    })
+    encoded_jwt = jwt.encode(to_encode, JWT_SECRET_KEY, algorithm=JWT_ALGORITHM)
+    return encoded_jwt
+
+def decode_access_token(token: str) -> Dict[str, Any]:
+    """
+    Verify and decode a signed JWT token.
+    Raises ValueError on expired or invalid token.
+    """
+    if not _HAS_PYJWT:
+        raise RuntimeError("PyJWT library is required for JWT token verification.")
+
+    if not token:
+        raise ValueError("Token is required.")
+
+    try:
+        payload = jwt.decode(token, JWT_SECRET_KEY, algorithms=[JWT_ALGORITHM])
+        return payload
+    except jwt.ExpiredSignatureError:
+        raise ValueError("Authentication token has expired. Please sign in again.")
+    except jwt.InvalidSignatureError:
+        raise ValueError("Invalid authentication token signature.")
+    except jwt.PyJWTError as e:
+        raise ValueError(f"Invalid authentication token: {str(e)}")
