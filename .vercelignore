@@ -1,0 +1,45 @@
+# Files and directories ignored by Vercel deployments
+
+# Heavy training datasets (keep only pesticide_recommendations.json & regional_soil_defaults.json)
+datasets/*.csv
+datasets/*.csv.*
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+database/*.db
+database/*.sqlite
+backups/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+venv/
+.venv/
+env/
+ENV/
+
+# Development notebooks and visual assets
+notebooks/
+diagrams/
+screenshots/
+plots/
+reports/
+
+# Testing & CI
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+.github/
+
+# Logs & temp files
+logs/
+*.log
+uploads/avatars/*
+!uploads/avatars/.gitkeep

@@ -156,7 +156,9 @@ try:
             pass
 
         try:
-            get_production_pipeline()
+            is_serverless = os.getenv("VERCEL") == "1" or os.getenv("SERVERLESS", "0") == "1"
+            if not is_serverless:
+                get_production_pipeline()
             load_advisory_knowledgebase()
         except Exception:
             pass
