@@ -5,8 +5,7 @@ import re
 from datetime import datetime
 from pathlib import Path
 
-from config import LOG_FILE, LOG_LEVEL, LOG_MAX_BYTES, LOG_BACKUP_COUNT
-
+from config import LOG_FILE as CONFIG_LOG_FILE, LOG_LEVEL, LOG_MAX_BYTES, LOG_BACKUP_COUNT
 # Patterns for sensitive data masking
 SENSITIVE_PATTERNS = [
     (re.compile(r'(password|passwd|pwd|secret|token|hash)[\'":\s=]+([^\s,;\'"\}]+)', re.IGNORECASE), r'\1=***REDACTED***'),
@@ -39,7 +38,13 @@ class SensitiveDataFilter(logging.Filter):
                 masked = pattern.sub(replacement, masked)
         return masked
 
-# Ensure log directory exists
+# Use writable temporary storage on Vercel.
+# Preserve the configured log path for local development.
+if os.getenv("VERCEL"):
+    LOG_FILE = Path("/tmp/logs") / Path(CONFIG_LOG_FILE).name
+else:
+    LOG_FILE = Path(CONFIG_LOG_FILE)
+
 LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
 
 # Create Root App Logger
